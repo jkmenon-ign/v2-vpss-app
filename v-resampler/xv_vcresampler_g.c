@@ -1,0 +1,39 @@
+/*******************************************************************
+* Copyright (C) 2010-2020 Xilinx, Inc. All rights reserved.
+* SPDX-License-Identifier: MIT
+*******************************************************************/
+
+
+#include "vprocss_hw_config.h"
+#include "xv_vcresampler.h"
+
+/*
+* The configuration table for devices
+*/
+
+XV_vcresampler_Config XV_vcresampler_ConfigTable[] =
+{
+	{
+#ifdef XPAR_XV_VCRESAMPLER_NUM_INSTANCES
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_DEVICE_ID,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_S_AXI_CTRL_BASEADDR,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_SAMPLES_PER_CLOCK,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_NUM_VIDEO_COMPONENTS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_MAX_COLS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_MAX_ROWS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_MAX_DATA_WIDTH,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_CONVERT_TYPE,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_NUM_V_TAPS
+#endif
+	},
+        {	XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_DEVICE_ID,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_S_AXI_CTRL_BASEADDR,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_SAMPLES_PER_CLOCK,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_NUM_VIDEO_COMPONENTS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_MAX_COLS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_MAX_ROWS,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_MAX_DATA_WIDTH,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_CONVERT_TYPE,
+		XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_NUM_V_TAPS
+	}
+};

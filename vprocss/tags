@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHIVER	Makefile	/^ARCHIVER=$(AR)$/;"	m
+COMPILER	Makefile	/^COMPILER=$(CC)$/;"	m
+CP	Makefile	/^CP=cp$/;"	m
+ComputeSubcoreAbsAddr	vprocss_coreinit.c	/^static int ComputeSubcoreAbsAddr(UINTPTR subsys_baseaddr,$/;"	f	file:
+Csc	vprocss.c	/^  XV_Csc_l2 Csc;$/;"	m	struct:__anon1	file:
+EXTRA_COMPILER_FLAGS	Makefile	/^EXTRA_COMPILER_FLAGS=-Wall -Wextra$/;"	m
+GetIncludedSubcores	vprocss.c	/^static void GetIncludedSubcores(XVprocSs *XVprocSsPtr)$/;"	f	file:
+GetScalingMode	vprocss_router.c	/^static XVprocSs_ScaleMode GetScalingMode(XVprocSs *XVprocSsPtr)$/;"	f	file:
+Hcrsmplr	vprocss.c	/^  XV_Hcresampler_l2 Hcrsmplr;$/;"	m	struct:__anon1	file:
+Hscaler	vprocss.c	/^  XV_Hscaler_l2 Hscaler;$/;"	m	struct:__anon1	file:
+INCLUDEDIR	Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INCLUDEFILES	Makefile	/^INCLUDEFILES=$(wildcard *.h)$/;"	m
+INCLUDES	Makefile	/^INCLUDES=-I.\/. -I${INCLUDEDIR}$/;"	m
+LIB	Makefile	/^LIB=libvprocss.a$/;"	m
+LIBSOURCES	Makefile	/^LIBSOURCES=$(wildcard *.c)$/;"	m
+MAX_UIO_MAPS	vprocss_linux.c	14;"	d	file:
+MAX_UIO_NAME_SIZE	vprocss_linux.c	13;"	d	file:
+MAX_UIO_PATH_SIZE	vprocss_linux.c	12;"	d	file:
+OBJECTS	Makefile	/^OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))$/;"	m
+OUTS	Makefile	/^OUTS = *.o$/;"	m
+RELEASEDIR	Makefile	/^RELEASEDIR=..\/lib$/;"	m
+Router	vprocss.c	/^  XAxis_Switch Router;$/;"	m	struct:__anon1	file:
+RstAxis	vprocss.c	/^  XGpio RstAxis;      \/\/Reset for IP's running at AXIS Clk$/;"	m	struct:__anon1	file:
+SetPowerOnDefaultState	vprocss.c	/^static void SetPowerOnDefaultState(XVprocSs *XVprocSsPtr)$/;"	f	file:
+SetupModeCscOnly	vprocss.c	/^static int SetupModeCscOnly(XVprocSs *XVprocSsPtr)$/;"	f	file:
+SetupModeHCResampleOnly	vprocss.c	/^static int SetupModeHCResampleOnly(XVprocSs *XVprocSsPtr)$/;"	f	file:
+SetupModeMax	vprocss.c	/^static int SetupModeMax(XVprocSs *XVprocSsPtr)$/;"	f	file:
+SetupModeScalerOnly	vprocss.c	/^static int SetupModeScalerOnly(XVprocSs *XVprocSsPtr)$/;"	f	file:
+SetupModeVCResampleOnly	vprocss.c	/^static int SetupModeVCResampleOnly(XVprocSs *XVprocSsPtr)$/;"	f	file:
+UIO_INVALID_ADDR	vprocss_linux.c	15;"	d	file:
+ValidateCscOnlyConfig	vprocss.c	/^static int ValidateCscOnlyConfig(XVprocSs *XVprocSsPtr,$/;"	f	file:
+ValidateHCResampleOnlyConfig	vprocss.c	/^static int ValidateHCResampleOnlyConfig(XVprocSs *XVprocSsPtr)$/;"	f	file:
+ValidateScalerOnlyConfig	vprocss.c	/^static int ValidateScalerOnlyConfig(XVprocSs *XVprocSsPtr)$/;"	f	file:
+ValidateSubsystemConfig	vprocss.c	/^static int ValidateSubsystemConfig(XVprocSs *InstancePtr)$/;"	f	file:
+ValidateVCResampleOnlyConfig	vprocss.c	/^static int ValidateVCResampleOnlyConfig(XVprocSs *XVprocSsPtr)$/;"	f	file:
+VcrsmplrIn	vprocss.c	/^  XV_Vcresampler_l2 VcrsmplrIn;$/;"	m	struct:__anon1	file:
+VcrsmplrOut	vprocss.c	/^  XV_Vcresampler_l2 VcrsmplrOut;$/;"	m	struct:__anon1	file:
+VprocSs_Initialize	vprocss_linux.c	/^int VprocSs_Initialize(XVprocSs *InstancePtr, const char* InstanceName) {$/;"	f
+VprocSs_Release	vprocss_linux.c	/^int VprocSs_Release(XVprocSs *InstancePtr) {$/;"	f
+VprocSs_uio_info	vprocss_linux.c	/^} VprocSs_uio_info;$/;"	t	typeref:struct:__anon3	file:
+VprocSs_uio_map	vprocss_linux.c	/^} VprocSs_uio_map;$/;"	t	typeref:struct:__anon2	file:
+Vscaler	vprocss.c	/^  XV_Vscaler_l2 Vscaler;$/;"	m	struct:__anon1	file:
+WaitUs	vprocss.c	/^static __inline void WaitUs(XVprocSs *XVprocSsPtr, u32 MicroSeconds)$/;"	f	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_AXIS_SWITCH_0_PRESENT	xvprocss_g.c	20;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_CSC_PRESENT	xvprocss_g.c	14;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_HCR_PRESENT	xvprocss_g.c	15;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_HSC_PRESENT	xvprocss_g.c	16;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_RESET_SEL_AXIS_PRESENT	xvprocss_g.c	17;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_VCR_I_PRESENT	xvprocss_g.c	18;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_VCR_O_PRESENT	xvprocss_g.c	19;"	d	file:
+XPAR_HDMI_PATH_V_PROC_SS_0_V_VSCALER_PRESENT	xvprocss_g.c	21;"	d	file:
+XVPROCSS_AXIS_SWITCH_VIDIN_S0	vprocss_router.c	45;"	d	file:
+XVPROCSS_AXIS_SWITCH_VIDOUT_M0	vprocss_router.c	46;"	d	file:
+XVidC_CustomTimingModes	xvidc.c	/^const XVidC_VideoTimingMode *XVidC_CustomTimingModes = NULL;$/;"	v
+XVidC_Get3DFormatStr	xvidc.c	/^const char *XVidC_Get3DFormatStr(XVidC_3DFormat Format)$/;"	f
+XVidC_GetColorFormatStr	xvidc.c	/^const char *XVidC_GetColorFormatStr(XVidC_ColorFormat ColorFormatId)$/;"	f
+XVidC_GetCustomVideoModeData	xvidc.c	/^static const XVidC_VideoTimingMode *XVidC_GetCustomVideoModeData($/;"	f	file:
+XVidC_GetFrameRate	xvidc.c	/^XVidC_FrameRate XVidC_GetFrameRate(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetFrameRateStr	xvidc.c	/^const char *XVidC_GetFrameRateStr(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetPixelClockHzByHVFr	xvidc.c	/^u64 XVidC_GetPixelClockHzByHVFr(u32 HTotal, u32 VTotal, u8 FrameRate)$/;"	f
+XVidC_GetPixelClockHzByVmId	xvidc.c	/^u64 XVidC_GetPixelClockHzByVmId(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetTimingInfo	xvidc.c	/^const XVidC_VideoTiming *XVidC_GetTimingInfo(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetVideoFormat	xvidc.c	/^XVidC_VideoFormat XVidC_GetVideoFormat(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetVideoModeData	xvidc.c	/^const XVidC_VideoTimingMode *XVidC_GetVideoModeData(XVidC_VideoMode VmId)$/;"	f
+XVidC_GetVideoModeId	xvidc.c	/^XVidC_VideoMode XVidC_GetVideoModeId(u32 Width, u32 Height, u32 FrameRate,$/;"	f
+XVidC_GetVideoModeIdExtensive	xvidc.c	/^XVidC_VideoMode XVidC_GetVideoModeIdExtensive(XVidC_VideoTiming *Timing,$/;"	f
+XVidC_GetVideoModeIdRb	xvidc.c	/^XVidC_VideoMode XVidC_GetVideoModeIdRb(u32 Width, u32 Height,$/;"	f
+XVidC_GetVideoModeIdWBlanking	xvidc.c	/^XVidC_VideoMode XVidC_GetVideoModeIdWBlanking(const XVidC_VideoTiming *Timing,$/;"	f
+XVidC_GetVideoModeStr	xvidc.c	/^const char *XVidC_GetVideoModeStr(XVidC_VideoMode VmId)$/;"	f
+XVidC_IsInterlaced	xvidc.c	/^u8 XVidC_IsInterlaced(XVidC_VideoMode VmId)$/;"	f
+XVidC_IsVtmRb	xvidc.c	/^static u8 XVidC_IsVtmRb(const char *VideoModeStr, u8 RbN)$/;"	f	file:
+XVidC_NumCustomModes	xvidc.c	/^int XVidC_NumCustomModes = 0;$/;"	v
+XVidC_RegisterCustomTimingModes	xvidc.c	/^u32 XVidC_RegisterCustomTimingModes(const XVidC_VideoTimingMode *CustomTable,$/;"	f
+XVidC_ReportStreamInfo	xvidc.c	/^void XVidC_ReportStreamInfo(const XVidC_VideoStream *Stream)$/;"	f
+XVidC_ReportTiming	xvidc.c	/^void XVidC_ReportTiming(const XVidC_VideoTiming *Timing, u8 IsInterlaced)$/;"	f
+XVidC_Set3DVideoStream	xvidc.c	/^u32 XVidC_Set3DVideoStream(XVidC_VideoStream *VidStrmPtr, XVidC_VideoMode VmId,$/;"	f
+XVidC_SetVideoStream	xvidc.c	/^u32 XVidC_SetVideoStream(XVidC_VideoStream *VidStrmPtr, XVidC_VideoMode VmId,$/;"	f
+XVidC_UnregisterCustomTimingModes	xvidc.c	/^void XVidC_UnregisterCustomTimingModes(void)$/;"	f
+XVidC_VideoTimingModes	xvidc_timings_table.c	/^const XVidC_VideoTimingMode XVidC_VideoTimingModes[XVIDC_VM_NUM_SUPPORTED] =$/;"	v
+XVprocSs_BuildRoutingTable	vprocss_router.c	/^int XVprocSs_BuildRoutingTable(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_CfgInitialize	vprocss.c	/^int XVprocSs_CfgInitialize(XVprocSs *InstancePtr,XVprocSs_Config *CfgPtr,$/;"	f
+XVprocSs_ConfigTable	xvprocss_g.c	/^XVprocSs_Config XVprocSs_ConfigTable[] =$/;"	v
+XVprocSs_EnableBlock	vprocss.c	/^static __inline void XVprocSs_EnableBlock(XGpio *pReset, u32 channel, u32 ipBlock)$/;"	f	file:
+XVprocSs_GetResetState	vprocss.c	/^static __inline u32 XVprocSs_GetResetState(XGpio *pReset, u32 channel)$/;"	f	file:
+XVprocSs_LoadChromaResamplerCoeff	vprocss.c	/^void XVprocSs_LoadChromaResamplerCoeff(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_LoadScalerCoeff	vprocss.c	/^void XVprocSs_LoadScalerCoeff(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_LookupConfig	xvprocss_sinit.c	/^XVprocSs_Config* XVprocSs_LookupConfig(u32 DeviceId)$/;"	f
+XVprocSs_ProgRouterMux	vprocss_router.c	/^void XVprocSs_ProgRouterMux(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_Reset	vprocss.c	/^void XVprocSs_Reset(XVprocSs *InstancePtr)$/;"	f
+XVprocSs_ResetBlock	vprocss.c	/^static __inline void XVprocSs_ResetBlock(XGpio *pReset, u32 channel, u32 ipBlock)$/;"	f	file:
+XVprocSs_SetPictureColorStdIn	vprocss.c	/^void XVprocSs_SetPictureColorStdIn(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_SetPictureColorStdOut	vprocss.c	/^void XVprocSs_SetPictureColorStdOut(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_SetStreamResolution	vprocss.c	/^int XVprocSs_SetStreamResolution(XVidC_VideoStream *StreamPtr,$/;"	f
+XVprocSs_SetSubsystemConfig	vprocss.c	/^int XVprocSs_SetSubsystemConfig(XVprocSs *InstancePtr)$/;"	f
+XVprocSs_SetVidStreamIn	vprocss.c	/^int XVprocSs_SetVidStreamIn(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_SetVidStreamOut	vprocss.c	/^int XVprocSs_SetVidStreamOut(XVprocSs *InstancePtr,$/;"	f
+XVprocSs_SetupRouterDataFlow	vprocss_router.c	/^void XVprocSs_SetupRouterDataFlow(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_Start	vprocss.c	/^void XVprocSs_Start(XVprocSs *InstancePtr)$/;"	f
+XVprocSs_Stop	vprocss.c	/^void XVprocSs_Stop(XVprocSs *InstancePtr)$/;"	f
+XVprocSs_SubCores	vprocss.c	/^}XVprocSs_SubCores;$/;"	t	typeref:struct:__anon1	file:
+XVprocSs_SubcoreInitCsc	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitCsc(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitHCrsmplr	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitHCrsmplr(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitHScaler	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitHScaler(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitResetAxis	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitResetAxis(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitRouter	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitRouter(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitVCrsmpleIn	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitVCrsmpleIn(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitVCrsmpleOut	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitVCrsmpleOut(XVprocSs *XVprocSsPtr)$/;"	f
+XVprocSs_SubcoreInitVScaler	vprocss_coreinit.c	/^int XVprocSs_SubcoreInitVScaler(XVprocSs *XVprocSsPtr)$/;"	f
+addr	vprocss_linux.c	/^    u32 addr;$/;"	m	struct:__anon2	file:
+line_from_file	vprocss_linux.c	/^static int line_from_file(char* filename, char* linebuf) {$/;"	f	file:
+maps	vprocss_linux.c	/^    VprocSs_uio_map maps[ MAX_UIO_MAPS ];$/;"	m	struct:__anon3	file:
+name	vprocss_linux.c	/^    char name[ MAX_UIO_NAME_SIZE ];$/;"	m	struct:__anon3	file:
+size	vprocss_linux.c	/^    u32 size;$/;"	m	struct:__anon2	file:
+subcoreRepo	vprocss.c	/^XVprocSs_SubCores subcoreRepo[XPAR_XVPROCSS_NUM_INSTANCES];$/;"	v
+uio_fd	vprocss_linux.c	/^    int  uio_fd;$/;"	m	struct:__anon3	file:
+uio_info	vprocss_linux.c	/^static VprocSs_uio_info uio_info;$/;"	v	file:
+uio_info_read_map_addr	vprocss_linux.c	/^static int uio_info_read_map_addr(VprocSs_uio_info* info, int n) {$/;"	f	file:
+uio_info_read_map_size	vprocss_linux.c	/^static int uio_info_read_map_size(VprocSs_uio_info* info, int n) {$/;"	f	file:
+uio_info_read_name	vprocss_linux.c	/^static int uio_info_read_name(VprocSs_uio_info* info) {$/;"	f	file:
+uio_info_read_version	vprocss_linux.c	/^static int uio_info_read_version(VprocSs_uio_info* info) {$/;"	f	file:
+uio_num	vprocss_linux.c	/^    int  uio_num;$/;"	m	struct:__anon3	file:
+version	vprocss_linux.c	/^    char version[ MAX_UIO_NAME_SIZE ];$/;"	m	struct:__anon3	file:

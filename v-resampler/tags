@@ -1,0 +1,555 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHIVER	Makefile	/^ARCHIVER=$(AR)$/;"	m
+AspectRatio	include/xvidc.h	/^	XVidC_AspectRatio	  AspectRatio;$/;"	m	struct:__anon22
+BaseAddress	include/xv_vcresampler.h	/^    UINTPTR BaseAddress;   \/**< The base address of the core instance. *\/$/;"	m	struct:__anon5
+COMPILER	Makefile	/^COMPILER=$(CC)$/;"	m
+CP	Makefile	/^CP=cp$/;"	m
+ColorDepth	include/xvidc.h	/^	XVidC_ColorDepth	  ColorDepth;$/;"	m	struct:__anon22
+ColorFormatId	include/xvidc.h	/^	XVidC_ColorFormat	  ColorFormatId;$/;"	m	struct:__anon22
+Config	include/xv_vcresampler.h	/^    XV_vcresampler_Config Config; \/**< Hardware Configuration *\/$/;"	m	struct:__anon6
+DeviceId	include/xv_vcresampler.h	/^    u16 DeviceId;          \/**< Unique ID  of device *\/$/;"	m	struct:__anon5
+EXTRA_COMPILER_FLAGS	Makefile	/^EXTRA_COMPILER_FLAGS=-Wall -Wextra$/;"	m
+F0PVBackPorch	include/xvidc.h	/^	u16 F0PVBackPorch;$/;"	m	struct:__anon19
+F0PVFrontPorch	include/xvidc.h	/^	u16 F0PVFrontPorch;$/;"	m	struct:__anon19
+F0PVSyncWidth	include/xvidc.h	/^	u16 F0PVSyncWidth;$/;"	m	struct:__anon19
+F0PVTotal	include/xvidc.h	/^	u16 F0PVTotal;$/;"	m	struct:__anon19
+F1VBackPorch	include/xvidc.h	/^	u16 F1VBackPorch;$/;"	m	struct:__anon19
+F1VFrontPorch	include/xvidc.h	/^	u16 F1VFrontPorch;$/;"	m	struct:__anon19
+F1VSyncWidth	include/xvidc.h	/^	u16 F1VSyncWidth;$/;"	m	struct:__anon19
+F1VTotal	include/xvidc.h	/^	u16 F1VTotal;$/;"	m	struct:__anon19
+FALSE	include/xv_vcresampler_l2.h	93;"	d
+Format	include/xvidc.h	/^	XVidC_3DFormat		  Format;$/;"	m	struct:__anon21
+FrameRate	include/xvidc.h	/^	XVidC_FrameRate		  FrameRate;$/;"	m	struct:__anon22
+FrameRate	include/xvidc.h	/^	XVidC_FrameRate		FrameRate;$/;"	m	struct:__anon24
+HActive	include/xvidc.h	/^	u16 HActive;$/;"	m	struct:__anon19
+HBackPorch	include/xvidc.h	/^	u16 HBackPorch;$/;"	m	struct:__anon19
+HFrontPorch	include/xvidc.h	/^	u16 HFrontPorch;$/;"	m	struct:__anon19
+HSyncPolarity	include/xvidc.h	/^	u8 HSyncPolarity;$/;"	m	struct:__anon19
+HSyncWidth	include/xvidc.h	/^	u16 HSyncWidth;$/;"	m	struct:__anon19
+HTotal	include/xvidc.h	/^	u16 HTotal;$/;"	m	struct:__anon19
+Height	include/xvidc.h	/^	u32 Height;$/;"	m	struct:__anon23
+INCLUDEDIR	Makefile	/^INCLUDEDIR=.\/include$/;"	m
+INCLUDEFILES	Makefile	/^INCLUDEFILES=$(wildcard *.h)$/;"	m
+INCLUDES	Makefile	/^INCLUDES=-I.\/. -I${INCLUDEDIR}$/;"	m
+Info_3D	include/xvidc.h	/^	XVidC_3DInfo		  Info_3D;$/;"	m	struct:__anon22
+Is3D	include/xvidc.h	/^	u8			          Is3D;$/;"	m	struct:__anon22
+IsInterlaced	include/xvidc.h	/^	u8			          IsInterlaced;$/;"	m	struct:__anon22
+IsReady	include/xv_vcresampler.h	/^    u32 IsReady;                  \/**< Device is initialized and ready *\/$/;"	m	struct:__anon6
+LIB	Makefile	/^LIB=libxil.a$/;"	m
+LIBSOURCES	Makefile	/^LIBSOURCES=$(wildcard *.c)$/;"	m
+MAX_UIO_MAPS	xv_vcresampler_linux.c	14;"	d	file:
+MAX_UIO_NAME_SIZE	xv_vcresampler_linux.c	13;"	d	file:
+MAX_UIO_PATH_SIZE	xv_vcresampler_linux.c	12;"	d	file:
+MaxDataWidth	include/xv_vcresampler.h	/^    u16 MaxDataWidth;      \/**< Maximum Data width of each channel *\/$/;"	m	struct:__anon5
+MaxHeight	include/xv_vcresampler.h	/^    u16 MaxHeight;         \/**< Maximum rows supported by core instance *\/$/;"	m	struct:__anon5
+MaxWidth	include/xv_vcresampler.h	/^    u16 MaxWidth;          \/**< Maximum columns supported by core instance *\/$/;"	m	struct:__anon5
+Method	include/xvidc.h	/^	XVidC_3DSamplingMethod   Method;$/;"	m	struct:__anon20
+Name	include/xvidc.h	/^	const char		    Name[21];$/;"	m	struct:__anon24
+NumTaps	include/xv_vcresampler.h	/^    u16 NumTaps;           \/**< Number of filter taps *\/$/;"	m	struct:__anon5
+NumVidComponents	include/xv_vcresampler.h	/^    u16 NumVidComponents;  \/**< Number of Video Components *\/$/;"	m	struct:__anon5
+OBJECTS	Makefile	/^OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))$/;"	m
+OUTS	Makefile	/^OUTS = *.o$/;"	m
+PixPerClk	include/xv_vcresampler.h	/^    u16 PixPerClk;         \/**< Samples Per Clock supported by core instance *\/$/;"	m	struct:__anon5
+PixPerClk	include/xvidc.h	/^	XVidC_PixelsPerClock  PixPerClk;$/;"	m	struct:__anon22
+Position	include/xvidc.h	/^	XVidC_3DSamplingPosition Position;$/;"	m	struct:__anon20
+RELEASEDIR	Makefile	/^RELEASEDIR=.\/lib$/;"	m
+ResamplingType	include/xv_vcresampler.h	/^    u16 ResamplingType;    \/**< Resampling Method selected *\/$/;"	m	struct:__anon5
+Sampling	include/xvidc.h	/^	XVidC_3DSamplingInfo  Sampling;$/;"	m	struct:__anon21
+StartX	include/xvidc.h	/^	u32 StartX;$/;"	m	struct:__anon23
+StartY	include/xvidc.h	/^	u32 StartY;$/;"	m	struct:__anon23
+TRUE	include/xv_vcresampler_l2.h	92;"	d
+Timing	include/xvidc.h	/^	XVidC_VideoTiming	  Timing;$/;"	m	struct:__anon22
+Timing	include/xvidc.h	/^	XVidC_VideoTiming	Timing;$/;"	m	struct:__anon24
+UINTPTR	include/xv_vcresampler.h	/^typedef uintptr_t UINTPTR;$/;"	t
+UIO_INVALID_ADDR	xv_vcresampler_linux.c	15;"	d	file:
+UseExtCoeff	include/xv_vcresampler_l2.h	/^   u16 UseExtCoeff;$/;"	m	struct:__anon4
+VActive	include/xvidc.h	/^	u16 VActive;$/;"	m	struct:__anon19
+VSyncPolarity	include/xvidc.h	/^	u8 VSyncPolarity;$/;"	m	struct:__anon19
+Vcr	include/xv_vcresampler_l2.h	/^   XV_vcresampler Vcr;   \/*<< Layer 1 instance *\/$/;"	m	struct:__anon4
+VmId	include/xvidc.h	/^	XVidC_VideoMode		  VmId;$/;"	m	struct:__anon22
+VmId	include/xvidc.h	/^	XVidC_VideoMode		VmId;$/;"	m	struct:__anon24
+Width	include/xvidc.h	/^	u32 Width;$/;"	m	struct:__anon23
+XIL_COMPONENT_IS_READY	include/xv_vcresampler.h	85;"	d
+XST_DEVICE_NOT_FOUND	include/xv_vcresampler.h	83;"	d
+XST_OPEN_DEVICE_FAILED	include/xv_vcresampler.h	84;"	d
+XST_SUCCESS	include/xv_vcresampler.h	82;"	d
+XVIDC_3D_FIELD_ALTERNATIVE	include/xvidc.h	/^	XVIDC_3D_FIELD_ALTERNATIVE,	\/**< Field alternative.     *\/$/;"	e	enum:__anon16
+XVIDC_3D_FRAME_PACKING	include/xvidc.h	/^	XVIDC_3D_FRAME_PACKING = 0,	\/**< Frame packing.         *\/$/;"	e	enum:__anon16
+XVIDC_3D_LINE_ALTERNATIVE	include/xvidc.h	/^	XVIDC_3D_LINE_ALTERNATIVE,	\/**< Line alternative.      *\/$/;"	e	enum:__anon16
+XVIDC_3D_SAMPLING_HORIZONTAL	include/xvidc.h	/^	XVIDC_3D_SAMPLING_HORIZONTAL = 0, \/**< Horizontal sub-sampling. *\/$/;"	e	enum:__anon17
+XVIDC_3D_SAMPLING_QUINCUNX	include/xvidc.h	/^	XVIDC_3D_SAMPLING_QUINCUNX,	  \/**< Quincunx matrix.         *\/$/;"	e	enum:__anon17
+XVIDC_3D_SAMPLING_UNKNOWN	include/xvidc.h	/^	XVIDC_3D_SAMPLING_UNKNOWN$/;"	e	enum:__anon17
+XVIDC_3D_SAMPPOS_ELER	include/xvidc.h	/^	XVIDC_3D_SAMPPOS_ELER,		\/**< Even\/Left, Even\/Right. *\/$/;"	e	enum:__anon18
+XVIDC_3D_SAMPPOS_ELOR	include/xvidc.h	/^	XVIDC_3D_SAMPPOS_ELOR,		\/**< Even\/Left, Odd\/Right.  *\/$/;"	e	enum:__anon18
+XVIDC_3D_SAMPPOS_OLER	include/xvidc.h	/^	XVIDC_3D_SAMPPOS_OLER,		\/**< Odd\/Left,  Even\/Right. *\/$/;"	e	enum:__anon18
+XVIDC_3D_SAMPPOS_OLOR	include/xvidc.h	/^	XVIDC_3D_SAMPPOS_OLOR = 0,	\/**< Odd\/Left,  Odd\/Right.  *\/$/;"	e	enum:__anon18
+XVIDC_3D_SAMPPOS_UNKNOWN	include/xvidc.h	/^	XVIDC_3D_SAMPPOS_UNKNOWN$/;"	e	enum:__anon18
+XVIDC_3D_SIDE_BY_SIDE_FULL	include/xvidc.h	/^	XVIDC_3D_SIDE_BY_SIDE_FULL,	\/**< Side-by-side (full).   *\/$/;"	e	enum:__anon16
+XVIDC_3D_SIDE_BY_SIDE_HALF	include/xvidc.h	/^	XVIDC_3D_SIDE_BY_SIDE_HALF,	\/**< Side-by-side (half).   *\/$/;"	e	enum:__anon16
+XVIDC_3D_TOP_AND_BOTTOM_HALF	include/xvidc.h	/^	XVIDC_3D_TOP_AND_BOTTOM_HALF,	\/**< Top-and-bottom (half). *\/$/;"	e	enum:__anon16
+XVIDC_3D_UNKNOWN	include/xvidc.h	/^	XVIDC_3D_UNKNOWN$/;"	e	enum:__anon16
+XVIDC_AR_16_9	include/xvidc.h	/^	XVIDC_AR_16_9 = 1$/;"	e	enum:__anon13
+XVIDC_AR_4_3	include/xvidc.h	/^	XVIDC_AR_4_3 = 0,$/;"	e	enum:__anon13
+XVIDC_BPC_10	include/xvidc.h	/^	XVIDC_BPC_10 = 10,$/;"	e	enum:__anon10
+XVIDC_BPC_12	include/xvidc.h	/^	XVIDC_BPC_12 = 12,$/;"	e	enum:__anon10
+XVIDC_BPC_14	include/xvidc.h	/^	XVIDC_BPC_14 = 14,$/;"	e	enum:__anon10
+XVIDC_BPC_16	include/xvidc.h	/^	XVIDC_BPC_16 = 16,$/;"	e	enum:__anon10
+XVIDC_BPC_6	include/xvidc.h	/^	XVIDC_BPC_6 = 6,$/;"	e	enum:__anon10
+XVIDC_BPC_8	include/xvidc.h	/^	XVIDC_BPC_8 = 8,$/;"	e	enum:__anon10
+XVIDC_BPC_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_BPC_NUM_SUPPORTED = 6,$/;"	e	enum:__anon10
+XVIDC_BPC_UNKNOWN	include/xvidc.h	/^	XVIDC_BPC_UNKNOWN$/;"	e	enum:__anon10
+XVIDC_BT_2020	include/xvidc.h	/^	XVIDC_BT_2020 = 0,$/;"	e	enum:__anon14
+XVIDC_BT_601	include/xvidc.h	/^	XVIDC_BT_601,$/;"	e	enum:__anon14
+XVIDC_BT_709	include/xvidc.h	/^	XVIDC_BT_709,$/;"	e	enum:__anon14
+XVIDC_BT_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_BT_NUM_SUPPORTED,$/;"	e	enum:__anon14
+XVIDC_BT_UNKNOWN	include/xvidc.h	/^	XVIDC_BT_UNKNOWN$/;"	e	enum:__anon14
+XVIDC_CR_0_255	include/xvidc.h	/^	XVIDC_CR_0_255,$/;"	e	enum:__anon15
+XVIDC_CR_16_235	include/xvidc.h	/^	XVIDC_CR_16_235 = 0,$/;"	e	enum:__anon15
+XVIDC_CR_16_240	include/xvidc.h	/^	XVIDC_CR_16_240,$/;"	e	enum:__anon15
+XVIDC_CR_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_CR_NUM_SUPPORTED,$/;"	e	enum:__anon15
+XVIDC_CR_UNKNOWN_RANGE	include/xvidc.h	/^	XVIDC_CR_UNKNOWN_RANGE$/;"	e	enum:__anon15
+XVIDC_CSF_MEM_BGR8	include/xvidc.h	/^	XVIDC_CSF_MEM_BGR8,         \/\/ [23:0] R:G:B 8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_BGRA8	include/xvidc.h	/^	XVIDC_CSF_MEM_BGRA8,        \/\/ [31:0] A:R:G:B 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_BGRX8	include/xvidc.h	/^	XVIDC_CSF_MEM_BGRX8,        \/\/ [31:0] X:R:G:B 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_END	include/xvidc.h	/^	XVIDC_CSF_MEM_END,          \/\/ End of memory formats$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGB16	include/xvidc.h	/^	XVIDC_CSF_MEM_RGB16,        \/\/ [47:0] R:G:B 16:16:16$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGB565	include/xvidc.h	/^	XVIDC_CSF_MEM_RGB565,       \/\/ [15:0] B:G:R 5:6:5$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGB8	include/xvidc.h	/^	XVIDC_CSF_MEM_RGB8,         \/\/ [23:0] B:G:R 8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGBA8	include/xvidc.h	/^	XVIDC_CSF_MEM_RGBA8,        \/\/ [31:0] A:B:G:R 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGBX10	include/xvidc.h	/^	XVIDC_CSF_MEM_RGBX10,       \/\/ [31:0] x:B:G:R 2:10:10:10$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGBX12	include/xvidc.h	/^	XVIDC_CSF_MEM_RGBX12,       \/\/ [39:0] x:R:G:B 4:12:12:12$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_RGBX8	include/xvidc.h	/^	XVIDC_CSF_MEM_RGBX8 = 10,   \/\/ [31:0] x:B:G:R 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_START	include/xvidc.h	/^	XVIDC_CSF_MEM_START  = XVIDC_CSF_MEM_RGBX8,$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_UYVY8	include/xvidc.h	/^	XVIDC_CSF_MEM_UYVY8,        \/\/ [31:0] Y:V:Y:U 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y10	include/xvidc.h	/^	XVIDC_CSF_MEM_Y10,          \/\/ [31:0] x:Y:Y:Y 2:10:10:10$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y12	include/xvidc.h	/^	XVIDC_CSF_MEM_Y12,          \/\/ [39:0] x:Y2:Y1:Y0 4:12:12:12$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y16	include/xvidc.h	/^	XVIDC_CSF_MEM_Y16,          \/\/ [47:0] Y2:Y1:Y0 16:16:16$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y8	include/xvidc.h	/^	XVIDC_CSF_MEM_Y8,           \/\/ [31:0] Y:Y:Y:Y 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUV16	include/xvidc.h	/^	XVIDC_CSF_MEM_YUV16,        \/\/ [47:0] V:U:Y 16:16:16$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUV8	include/xvidc.h	/^	XVIDC_CSF_MEM_YUV8,         \/\/ [24:0] V:U:Y 8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUVA8	include/xvidc.h	/^	XVIDC_CSF_MEM_YUVA8,        \/\/ [31:0] A:V:U:Y 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUVX10	include/xvidc.h	/^	XVIDC_CSF_MEM_YUVX10,       \/\/ [31:0] x:V:U:Y 2:10:10:10$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUVX12	include/xvidc.h	/^	XVIDC_CSF_MEM_YUVX12,       \/\/ [39:0] x:V:U:Y 4:12:12:12$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUVX8	include/xvidc.h	/^	XVIDC_CSF_MEM_YUVX8,        \/\/ [31:0] x:V:U:Y 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_YUYV8	include/xvidc.h	/^	XVIDC_CSF_MEM_YUYV8,        \/\/ [31:0] V:Y:U:Y 8:8:8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV10	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV10,       \/\/ [31:0] x:Y:Y:Y 2:10:10:10 [31:0] x:U:V:U 2:10:10:10$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV10_420	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV10_420,   \/\/ [31:0] x:Y:Y:Y 2:10:10:10 [31:0] x:U:V:U 2:10:10:10$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV12	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV12,       \/\/ [23:0] Y:Y 12:12, [23:0] V:U 12:12$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV12_420	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV12_420,   \/\/ [23:0] Y:Y 12:12, [23:0] V:U 12:12$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV16	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV16,       \/\/ [31:0] Y:Y 16:16, [31:0] V:U 16:16$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV16_420	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV16_420,   \/\/ [31:0] Y:Y 16:16, [31:0] V:U 16:16$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV8	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV8,        \/\/ [15:0] Y:Y 8:8, [15:0] V:U 8:8$/;"	e	enum:__anon12
+XVIDC_CSF_MEM_Y_UV8_420	include/xvidc.h	/^	XVIDC_CSF_MEM_Y_UV8_420,    \/\/ [15:0] Y:Y 8:8, [15:0] V:U 8:8$/;"	e	enum:__anon12
+XVIDC_CSF_NUM_MEM	include/xvidc.h	/^	XVIDC_CSF_NUM_MEM    = (XVIDC_CSF_MEM_END - XVIDC_CSF_MEM_START)$/;"	e	enum:__anon12
+XVIDC_CSF_NUM_STRM	include/xvidc.h	/^	XVIDC_CSF_NUM_STRM   = (XVIDC_CSF_STRM_END - XVIDC_CSF_STRM_START + 1),$/;"	e	enum:__anon12
+XVIDC_CSF_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_CSF_NUM_SUPPORTED,    \/\/ includes the reserved slots$/;"	e	enum:__anon12
+XVIDC_CSF_RGB	include/xvidc.h	/^	XVIDC_CSF_RGB = 0,$/;"	e	enum:__anon12
+XVIDC_CSF_RGBA	include/xvidc.h	/^	XVIDC_CSF_RGBA,$/;"	e	enum:__anon12
+XVIDC_CSF_STRM_END	include/xvidc.h	/^	XVIDC_CSF_STRM_END   = XVIDC_CSF_YONLY,$/;"	e	enum:__anon12
+XVIDC_CSF_STRM_START	include/xvidc.h	/^	XVIDC_CSF_STRM_START = XVIDC_CSF_RGB,$/;"	e	enum:__anon12
+XVIDC_CSF_UNKNOWN	include/xvidc.h	/^	XVIDC_CSF_UNKNOWN,$/;"	e	enum:__anon12
+XVIDC_CSF_YCBCR_420	include/xvidc.h	/^	XVIDC_CSF_YCBCR_420,$/;"	e	enum:__anon12
+XVIDC_CSF_YCBCR_422	include/xvidc.h	/^	XVIDC_CSF_YCBCR_422 = 64,$/;"	e	enum:__anon12
+XVIDC_CSF_YCBCR_444	include/xvidc.h	/^	XVIDC_CSF_YCBCR_444,$/;"	e	enum:__anon12
+XVIDC_CSF_YCRCBA_444	include/xvidc.h	/^	XVIDC_CSF_YCRCBA_444,$/;"	e	enum:__anon12
+XVIDC_CSF_YCRCB_420	include/xvidc.h	/^	XVIDC_CSF_YCRCB_420,$/;"	e	enum:__anon12
+XVIDC_CSF_YCRCB_422	include/xvidc.h	/^	XVIDC_CSF_YCRCB_422,$/;"	e	enum:__anon12
+XVIDC_CSF_YCRCB_444	include/xvidc.h	/^	XVIDC_CSF_YCRCB_444,$/;"	e	enum:__anon12
+XVIDC_CSF_YONLY	include/xvidc.h	/^	XVIDC_CSF_YONLY,$/;"	e	enum:__anon12
+XVIDC_FR_100HZ	include/xvidc.h	/^	XVIDC_FR_100HZ = 100,$/;"	e	enum:__anon9
+XVIDC_FR_120HZ	include/xvidc.h	/^	XVIDC_FR_120HZ = 120,$/;"	e	enum:__anon9
+XVIDC_FR_144HZ	include/xvidc.h	/^	XVIDC_FR_144HZ = 144,$/;"	e	enum:__anon9
+XVIDC_FR_200HZ	include/xvidc.h	/^	XVIDC_FR_200HZ = 200,$/;"	e	enum:__anon9
+XVIDC_FR_240HZ	include/xvidc.h	/^	XVIDC_FR_240HZ = 240,$/;"	e	enum:__anon9
+XVIDC_FR_24HZ	include/xvidc.h	/^	XVIDC_FR_24HZ = 24,$/;"	e	enum:__anon9
+XVIDC_FR_25HZ	include/xvidc.h	/^	XVIDC_FR_25HZ = 25,$/;"	e	enum:__anon9
+XVIDC_FR_30HZ	include/xvidc.h	/^	XVIDC_FR_30HZ = 30,$/;"	e	enum:__anon9
+XVIDC_FR_48HZ	include/xvidc.h	/^	XVIDC_FR_48HZ = 48,$/;"	e	enum:__anon9
+XVIDC_FR_50HZ	include/xvidc.h	/^	XVIDC_FR_50HZ = 50,$/;"	e	enum:__anon9
+XVIDC_FR_56HZ	include/xvidc.h	/^	XVIDC_FR_56HZ = 56,$/;"	e	enum:__anon9
+XVIDC_FR_60HZ	include/xvidc.h	/^	XVIDC_FR_60HZ = 60,$/;"	e	enum:__anon9
+XVIDC_FR_65HZ	include/xvidc.h	/^	XVIDC_FR_65HZ = 65,$/;"	e	enum:__anon9
+XVIDC_FR_67HZ	include/xvidc.h	/^	XVIDC_FR_67HZ = 67,$/;"	e	enum:__anon9
+XVIDC_FR_70HZ	include/xvidc.h	/^	XVIDC_FR_70HZ = 70,$/;"	e	enum:__anon9
+XVIDC_FR_72HZ	include/xvidc.h	/^	XVIDC_FR_72HZ = 72,$/;"	e	enum:__anon9
+XVIDC_FR_75HZ	include/xvidc.h	/^	XVIDC_FR_75HZ = 75,$/;"	e	enum:__anon9
+XVIDC_FR_85HZ	include/xvidc.h	/^	XVIDC_FR_85HZ = 85,$/;"	e	enum:__anon9
+XVIDC_FR_87HZ	include/xvidc.h	/^	XVIDC_FR_87HZ = 87,$/;"	e	enum:__anon9
+XVIDC_FR_88HZ	include/xvidc.h	/^	XVIDC_FR_88HZ = 88,$/;"	e	enum:__anon9
+XVIDC_FR_96HZ	include/xvidc.h	/^	XVIDC_FR_96HZ = 96,$/;"	e	enum:__anon9
+XVIDC_FR_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_FR_NUM_SUPPORTED = 21,$/;"	e	enum:__anon9
+XVIDC_FR_UNKNOWN	include/xvidc.h	/^	XVIDC_FR_UNKNOWN$/;"	e	enum:__anon9
+XVIDC_H_	include/xvidc.h	60;"	d
+XVIDC_PPC_1	include/xvidc.h	/^	XVIDC_PPC_1 = 1,$/;"	e	enum:__anon11
+XVIDC_PPC_2	include/xvidc.h	/^	XVIDC_PPC_2 = 2,$/;"	e	enum:__anon11
+XVIDC_PPC_4	include/xvidc.h	/^	XVIDC_PPC_4 = 4,$/;"	e	enum:__anon11
+XVIDC_PPC_8	include/xvidc.h	/^	XVIDC_PPC_8 = 8,$/;"	e	enum:__anon11
+XVIDC_PPC_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_PPC_NUM_SUPPORTED = 4,$/;"	e	enum:__anon11
+XVIDC_VF_INTERLACED	include/xvidc.h	/^	XVIDC_VF_INTERLACED,$/;"	e	enum:__anon8
+XVIDC_VF_PROGRESSIVE	include/xvidc.h	/^	XVIDC_VF_PROGRESSIVE = 0,$/;"	e	enum:__anon8
+XVIDC_VF_UNKNOWN	include/xvidc.h	/^	XVIDC_VF_UNKNOWN$/;"	e	enum:__anon8
+XVIDC_VM_10240x4320_100_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_120_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_24_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_25_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_30_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_48_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_50_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_10240x4320_60_P	include/xvidc.h	/^	XVIDC_VM_10240x4320_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1024x768_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1024x768_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1024x768_60_P	include/xvidc.h	/^	XVIDC_VM_1024x768_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1024x768_70_P	include/xvidc.h	/^	XVIDC_VM_1024x768_70_P,$/;"	e	enum:__anon7
+XVIDC_VM_1024x768_75_P	include/xvidc.h	/^	XVIDC_VM_1024x768_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1024x768_85_P	include/xvidc.h	/^	XVIDC_VM_1024x768_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1080_24_P	include/xvidc.h	/^	XVIDC_VM_1080_24_P = XVIDC_VM_1920x1080_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_1080_25_P	include/xvidc.h	/^	XVIDC_VM_1080_25_P = XVIDC_VM_1920x1080_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_1080_30_P	include/xvidc.h	/^	XVIDC_VM_1080_30_P = XVIDC_VM_1920x1080_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_1080_50_I	include/xvidc.h	/^	XVIDC_VM_1080_50_I = XVIDC_VM_1920x1080_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_1080_50_P	include/xvidc.h	/^	XVIDC_VM_1080_50_P = XVIDC_VM_1920x1080_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1080_60_I	include/xvidc.h	/^	XVIDC_VM_1080_60_I = XVIDC_VM_1920x1080_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_1080_60_P	include/xvidc.h	/^	XVIDC_VM_1080_60_P = XVIDC_VM_1920x1080_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1152x864_75_P	include/xvidc.h	/^	XVIDC_VM_1152x864_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x1024_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x1024_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x1024_60_P	include/xvidc.h	/^	XVIDC_VM_1280x1024_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x1024_75_P	include/xvidc.h	/^	XVIDC_VM_1280x1024_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x1024_85_P	include/xvidc.h	/^	XVIDC_VM_1280x1024_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_100_P	include/xvidc.h	/^	XVIDC_VM_1280x720_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_120_P	include/xvidc.h	/^	XVIDC_VM_1280x720_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_24_P	include/xvidc.h	/^	XVIDC_VM_1280x720_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_25_P	include/xvidc.h	/^	XVIDC_VM_1280x720_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_30_P	include/xvidc.h	/^	XVIDC_VM_1280x720_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_50_P	include/xvidc.h	/^	XVIDC_VM_1280x720_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x720_60_P	include/xvidc.h	/^	XVIDC_VM_1280x720_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x768_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x768_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x768_60_P	include/xvidc.h	/^	XVIDC_VM_1280x768_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x768_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x768_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x768_75_P	include/xvidc.h	/^	XVIDC_VM_1280x768_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x768_85_P	include/xvidc.h	/^	XVIDC_VM_1280x768_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x800_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x800_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x800_60_P	include/xvidc.h	/^	XVIDC_VM_1280x800_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x800_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x800_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x800_75_P	include/xvidc.h	/^	XVIDC_VM_1280x800_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x800_85_P	include/xvidc.h	/^	XVIDC_VM_1280x800_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x960_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1280x960_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1280x960_60_P	include/xvidc.h	/^	XVIDC_VM_1280x960_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1280x960_85_P	include/xvidc.h	/^	XVIDC_VM_1280x960_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1360x768_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1360x768_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1360x768_60_P	include/xvidc.h	/^	XVIDC_VM_1360x768_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1366x768_60_P	include/xvidc.h	/^	XVIDC_VM_1366x768_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1366x768_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1366x768_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1400x1050_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1400x1050_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1400x1050_60_P	include/xvidc.h	/^	XVIDC_VM_1400x1050_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1400x1050_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1400x1050_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1400x1050_75_P	include/xvidc.h	/^	XVIDC_VM_1400x1050_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1400x1050_85_P	include/xvidc.h	/^	XVIDC_VM_1400x1050_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x240_60_P	include/xvidc.h	/^	XVIDC_VM_1440x240_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x288_50_P	include/xvidc.h	/^	XVIDC_VM_1440x288_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x480_120_I	include/xvidc.h	/^	XVIDC_VM_1440x480_120_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x480_240_I	include/xvidc.h	/^	XVIDC_VM_1440x480_240_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x480_60_I	include/xvidc.h	/^	XVIDC_VM_1440x480_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x480_60_P	include/xvidc.h	/^	XVIDC_VM_1440x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x576_100_I	include/xvidc.h	/^	XVIDC_VM_1440x576_100_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x576_200_I	include/xvidc.h	/^	XVIDC_VM_1440x576_200_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x576_50_I	include/xvidc.h	/^	XVIDC_VM_1440x576_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_1440x576_50_P	include/xvidc.h	/^	XVIDC_VM_1440x576_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x900_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1440x900_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1440x900_60_P	include/xvidc.h	/^	XVIDC_VM_1440x900_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x900_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1440x900_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1440x900_75_P	include/xvidc.h	/^	XVIDC_VM_1440x900_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1440x900_85_P	include/xvidc.h	/^	XVIDC_VM_1440x900_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1600x1200_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_60_P	include/xvidc.h	/^	XVIDC_VM_1600x1200_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_65_P	include/xvidc.h	/^	XVIDC_VM_1600x1200_65_P,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_70_P	include/xvidc.h	/^	XVIDC_VM_1600x1200_70_P,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_75_P	include/xvidc.h	/^	XVIDC_VM_1600x1200_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1600x1200_85_P	include/xvidc.h	/^	XVIDC_VM_1600x1200_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1680x1050_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_50_P	include/xvidc.h	/^	XVIDC_VM_1680x1050_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_60_P	include/xvidc.h	/^	XVIDC_VM_1680x1050_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1680x1050_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_75_P	include/xvidc.h	/^	XVIDC_VM_1680x1050_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x1050_85_P	include/xvidc.h	/^	XVIDC_VM_1680x1050_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_100_P	include/xvidc.h	/^	XVIDC_VM_1680x720_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_120_P	include/xvidc.h	/^	XVIDC_VM_1680x720_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_24_P	include/xvidc.h	/^	XVIDC_VM_1680x720_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_25_P	include/xvidc.h	/^	XVIDC_VM_1680x720_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_30_P	include/xvidc.h	/^	XVIDC_VM_1680x720_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_50_P	include/xvidc.h	/^	XVIDC_VM_1680x720_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1680x720_60_P	include/xvidc.h	/^	XVIDC_VM_1680x720_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1792x1344_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1792x1344_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1792x1344_60_P	include/xvidc.h	/^	XVIDC_VM_1792x1344_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1792x1344_75_P	include/xvidc.h	/^	XVIDC_VM_1792x1344_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1856x1392_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1856x1392_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1856x1392_60_P	include/xvidc.h	/^	XVIDC_VM_1856x1392_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1856x1392_75_P	include/xvidc.h	/^	XVIDC_VM_1856x1392_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_100_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_100_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_100_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_120_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_120_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_120_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_24_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_25_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_30_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_48_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_48_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_48_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_50_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_50_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_60_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_60_P	include/xvidc.h	/^	XVIDC_VM_1920x1080_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1080_96_I	include/xvidc.h	/^	XVIDC_VM_1920x1080_96_I,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1200_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1920x1200_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1200_60_P	include/xvidc.h	/^	XVIDC_VM_1920x1200_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1200_60_P_RB	include/xvidc.h	/^	XVIDC_VM_1920x1200_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1200_75_P	include/xvidc.h	/^	XVIDC_VM_1920x1200_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1200_85_P	include/xvidc.h	/^	XVIDC_VM_1920x1200_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1440_120_P_RB	include/xvidc.h	/^	XVIDC_VM_1920x1440_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1440_60_P	include/xvidc.h	/^	XVIDC_VM_1920x1440_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x1440_75_P	include/xvidc.h	/^	XVIDC_VM_1920x1440_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_1920x2160_60_P	include/xvidc.h	/^	XVIDC_VM_1920x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_100_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_100_I,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_100_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_120_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_120_I,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_120_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_24_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_25_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_30_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_48_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_48_I,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_48_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_50_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_50_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_60_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_60_P	include/xvidc.h	/^	XVIDC_VM_2048x1080_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2048x1080_96_I	include/xvidc.h	/^	XVIDC_VM_2048x1080_96_I,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_100_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_120_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_24_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_25_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_30_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_48_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_50_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1080_60_P	include/xvidc.h	/^	XVIDC_VM_2560x1080_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1600_120_P_RB	include/xvidc.h	/^	XVIDC_VM_2560x1600_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1600_60_P	include/xvidc.h	/^	XVIDC_VM_2560x1600_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1600_60_P_RB	include/xvidc.h	/^	XVIDC_VM_2560x1600_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1600_75_P	include/xvidc.h	/^	XVIDC_VM_2560x1600_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_2560x1600_85_P	include/xvidc.h	/^	XVIDC_VM_2560x1600_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_2880x240_60_P	include/xvidc.h	/^	XVIDC_VM_2880x240_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2880x288_50_P	include/xvidc.h	/^	XVIDC_VM_2880x288_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_2880x480_60_I	include/xvidc.h	/^	XVIDC_VM_2880x480_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_2880x480_60_P	include/xvidc.h	/^	XVIDC_VM_2880x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_2880x576_50_I	include/xvidc.h	/^	XVIDC_VM_2880x576_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_2880x576_50_P	include/xvidc.h	/^	XVIDC_VM_2880x576_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_100_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_120_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_24_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_25_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_30_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_48_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_50_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_60_P	include/xvidc.h	/^	XVIDC_VM_3840x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_3840x2160_60_P_RB	include/xvidc.h	/^	XVIDC_VM_3840x2160_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_100_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_120_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_24_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_25_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_30_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_48_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_50_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_60_P	include/xvidc.h	/^	XVIDC_VM_4096x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_4096x2160_60_P_RB	include/xvidc.h	/^	XVIDC_VM_4096x2160_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_480_60_I	include/xvidc.h	/^	XVIDC_VM_480_60_I = XVIDC_VM_720x480_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_480_60_P	include/xvidc.h	/^	XVIDC_VM_480_60_P = XVIDC_VM_720x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_486_60_I	include/xvidc.h	/^	XVIDC_VM_486_60_I = XVIDC_VM_720x486_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_4K2K_60_P	include/xvidc.h	/^	XVIDC_VM_4K2K_60_P = XVIDC_VM_4096x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_4K2K_60_P_RB	include/xvidc.h	/^	XVIDC_VM_4K2K_60_P_RB = XVIDC_VM_4096x2160_60_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_100_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_120_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_24_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_25_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_30_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_48_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_50_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_5120x2160_60_P	include/xvidc.h	/^	XVIDC_VM_5120x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_576_50_I	include/xvidc.h	/^	XVIDC_VM_576_50_I = XVIDC_VM_720x576_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_640x350_85_P	include/xvidc.h	/^	XVIDC_VM_640x350_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_640x480_60_P	include/xvidc.h	/^	XVIDC_VM_640x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_640x480_72_P	include/xvidc.h	/^	XVIDC_VM_640x480_72_P,$/;"	e	enum:__anon7
+XVIDC_VM_640x480_75_P	include/xvidc.h	/^	XVIDC_VM_640x480_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_640x480_85_P	include/xvidc.h	/^	XVIDC_VM_640x480_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_720_50_P	include/xvidc.h	/^	XVIDC_VM_720_50_P = XVIDC_VM_1280x720_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_720_60_P	include/xvidc.h	/^	XVIDC_VM_720_60_P = XVIDC_VM_1280x720_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x400_85_P	include/xvidc.h	/^	XVIDC_VM_720x400_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x480_120_P	include/xvidc.h	/^	XVIDC_VM_720x480_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x480_240_P	include/xvidc.h	/^	XVIDC_VM_720x480_240_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x480_60_I	include/xvidc.h	/^	XVIDC_VM_720x480_60_I = 0,$/;"	e	enum:__anon7
+XVIDC_VM_720x480_60_P	include/xvidc.h	/^	XVIDC_VM_720x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x486_60_I	include/xvidc.h	/^	XVIDC_VM_720x486_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_720x576_100_P	include/xvidc.h	/^	XVIDC_VM_720x576_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x576_200_P	include/xvidc.h	/^	XVIDC_VM_720x576_200_P,$/;"	e	enum:__anon7
+XVIDC_VM_720x576_50_I	include/xvidc.h	/^	XVIDC_VM_720x576_50_I,$/;"	e	enum:__anon7
+XVIDC_VM_720x576_50_P	include/xvidc.h	/^	XVIDC_VM_720x576_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_100_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_100_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_120_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_120_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_24_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_25_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_30_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_48_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_48_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_50_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_50_P,$/;"	e	enum:__anon7
+XVIDC_VM_7680x4320_60_P	include/xvidc.h	/^	XVIDC_VM_7680x4320_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_120_P_RB	include/xvidc.h	/^	XVIDC_VM_800x600_120_P_RB,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_56_P	include/xvidc.h	/^	XVIDC_VM_800x600_56_P,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_60_P	include/xvidc.h	/^	XVIDC_VM_800x600_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_72_P	include/xvidc.h	/^	XVIDC_VM_800x600_72_P,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_75_P	include/xvidc.h	/^	XVIDC_VM_800x600_75_P,$/;"	e	enum:__anon7
+XVIDC_VM_800x600_85_P	include/xvidc.h	/^	XVIDC_VM_800x600_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_848x480_60_P	include/xvidc.h	/^	XVIDC_VM_848x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_CUSTOM	include/xvidc.h	/^	XVIDC_VM_CUSTOM,$/;"	e	enum:__anon7
+XVIDC_VM_INTL_END	include/xvidc.h	/^	XVIDC_VM_INTL_END = (XVIDC_VM_PROG_START - 1),$/;"	e	enum:__anon7
+XVIDC_VM_INTL_START	include/xvidc.h	/^	XVIDC_VM_INTL_START = XVIDC_VM_720x480_60_I,$/;"	e	enum:__anon7
+XVIDC_VM_NOT_SUPPORTED	include/xvidc.h	/^	XVIDC_VM_NOT_SUPPORTED,$/;"	e	enum:__anon7
+XVIDC_VM_NO_INPUT	include/xvidc.h	/^	XVIDC_VM_NO_INPUT,$/;"	e	enum:__anon7
+XVIDC_VM_NUM_SUPPORTED	include/xvidc.h	/^	XVIDC_VM_NUM_SUPPORTED,$/;"	e	enum:__anon7
+XVIDC_VM_PROG_END	include/xvidc.h	/^	XVIDC_VM_PROG_END = (XVIDC_VM_NUM_SUPPORTED - 1),$/;"	e	enum:__anon7
+XVIDC_VM_PROG_START	include/xvidc.h	/^	XVIDC_VM_PROG_START = XVIDC_VM_640x350_85_P,$/;"	e	enum:__anon7
+XVIDC_VM_SVGA_60_P	include/xvidc.h	/^	XVIDC_VM_SVGA_60_P = XVIDC_VM_800x600_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_UHD2_60_P	include/xvidc.h	/^	XVIDC_VM_UHD2_60_P = XVIDC_VM_1920x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_UHD_24_P	include/xvidc.h	/^	XVIDC_VM_UHD_24_P = XVIDC_VM_3840x2160_24_P,$/;"	e	enum:__anon7
+XVIDC_VM_UHD_25_P	include/xvidc.h	/^	XVIDC_VM_UHD_25_P = XVIDC_VM_3840x2160_25_P,$/;"	e	enum:__anon7
+XVIDC_VM_UHD_30_P	include/xvidc.h	/^	XVIDC_VM_UHD_30_P = XVIDC_VM_3840x2160_30_P,$/;"	e	enum:__anon7
+XVIDC_VM_UHD_60_P	include/xvidc.h	/^	XVIDC_VM_UHD_60_P = XVIDC_VM_3840x2160_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_USE_EDID_PREFERRED	include/xvidc.h	/^	XVIDC_VM_USE_EDID_PREFERRED,$/;"	e	enum:__anon7
+XVIDC_VM_UXGA_60_P	include/xvidc.h	/^	XVIDC_VM_UXGA_60_P = XVIDC_VM_1600x1200_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_VGA_60_P	include/xvidc.h	/^	XVIDC_VM_VGA_60_P = XVIDC_VM_640x480_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_WSXGA_60_P	include/xvidc.h	/^	XVIDC_VM_WSXGA_60_P = XVIDC_VM_1680x1050_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_WUXGA_60_P	include/xvidc.h	/^	XVIDC_VM_WUXGA_60_P = XVIDC_VM_1920x1200_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_WXGA_60_P	include/xvidc.h	/^	XVIDC_VM_WXGA_60_P = XVIDC_VM_1366x768_60_P,$/;"	e	enum:__anon7
+XVIDC_VM_XGA_60_P	include/xvidc.h	/^	XVIDC_VM_XGA_60_P = XVIDC_VM_1024x768_60_P,$/;"	e	enum:__anon7
+XV_VCHROMA_RESAMPLER_HW_H_	include/xv_vcresampler_hw.h	7;"	d
+XV_VCHROMA_RESAMPLER_L2_H	include/xv_vcresampler_l2.h	74;"	d
+XV_VCRESAMPLER_CONVERSION	include/xv_vcresampler_l2.h	/^ }XV_VCRESAMPLER_CONVERSION;$/;"	t	typeref:enum:__anon2
+XV_VCRESAMPLER_CTRL_ADDR_AP_CTRL	include/xv_vcresampler_hw.h	58;"	d
+XV_VCRESAMPLER_CTRL_ADDR_GIE	include/xv_vcresampler_hw.h	59;"	d
+XV_VCRESAMPLER_CTRL_ADDR_HWREG_COEFS_0_0_DATA	include/xv_vcresampler_hw.h	70;"	d
+XV_VCRESAMPLER_CTRL_ADDR_HWREG_HEIGHT_DATA	include/xv_vcresampler_hw.h	64;"	d
+XV_VCRESAMPLER_CTRL_ADDR_HWREG_INPUT_VIDEO_FORMAT_DATA	include/xv_vcresampler_hw.h	66;"	d
+XV_VCRESAMPLER_CTRL_ADDR_HWREG_OUTPUT_VIDEO_FORMAT_DATA	include/xv_vcresampler_hw.h	68;"	d
+XV_VCRESAMPLER_CTRL_ADDR_HWREG_WIDTH_DATA	include/xv_vcresampler_hw.h	62;"	d
+XV_VCRESAMPLER_CTRL_ADDR_IER	include/xv_vcresampler_hw.h	60;"	d
+XV_VCRESAMPLER_CTRL_ADDR_ISR	include/xv_vcresampler_hw.h	61;"	d
+XV_VCRESAMPLER_CTRL_BITS_HWREG_COEFS_0_0_DATA	include/xv_vcresampler_hw.h	71;"	d
+XV_VCRESAMPLER_CTRL_BITS_HWREG_HEIGHT_DATA	include/xv_vcresampler_hw.h	65;"	d
+XV_VCRESAMPLER_CTRL_BITS_HWREG_INPUT_VIDEO_FORMAT_DATA	include/xv_vcresampler_hw.h	67;"	d
+XV_VCRESAMPLER_CTRL_BITS_HWREG_OUTPUT_VIDEO_FORMAT_DATA	include/xv_vcresampler_hw.h	69;"	d
+XV_VCRESAMPLER_CTRL_BITS_HWREG_WIDTH_DATA	include/xv_vcresampler_hw.h	63;"	d
+XV_VCRESAMPLER_H	include/xv_vcresampler.h	7;"	d
+XV_VCRESAMPLER_TAPS	include/xv_vcresampler_l2.h	/^ }XV_VCRESAMPLER_TAPS;$/;"	t	typeref:enum:__anon1
+XV_VCRESAMPLER_TYPE	include/xv_vcresampler_l2.h	/^ }XV_VCRESAMPLER_TYPE;$/;"	t	typeref:enum:__anon3
+XV_VCRSMPLR_420_TO_422	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_420_TO_422 ,$/;"	e	enum:__anon2
+XV_VCRSMPLR_422_TO_420	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_422_TO_420  = 0,$/;"	e	enum:__anon2
+XV_VCRSMPLR_MAX_PHASES	include/xv_vcresampler_l2.h	90;"	d
+XV_VCRSMPLR_MAX_TAPS	include/xv_vcresampler_l2.h	89;"	d
+XV_VCRSMPLR_NUM_CONVERSIONS	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_NUM_CONVERSIONS$/;"	e	enum:__anon2
+XV_VCRSMPLR_NUM_SUPPORTED_TAPS_CONFIG	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_NUM_SUPPORTED_TAPS_CONFIG = 4$/;"	e	enum:__anon1
+XV_VCRSMPLR_TAPS_10	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TAPS_10 = 10,$/;"	e	enum:__anon1
+XV_VCRSMPLR_TAPS_4	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TAPS_4  = 4,$/;"	e	enum:__anon1
+XV_VCRSMPLR_TAPS_6	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TAPS_6  = 6,$/;"	e	enum:__anon1
+XV_VCRSMPLR_TAPS_8	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TAPS_8  = 8,$/;"	e	enum:__anon1
+XV_VCRSMPLR_TYPE_FIR	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TYPE_FIR$/;"	e	enum:__anon3
+XV_VCRSMPLR_TYPE_FIXED_COEFFICIENT	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TYPE_FIXED_COEFFICIENT,$/;"	e	enum:__anon3
+XV_VCRSMPLR_TYPE_NEAREST_NEIGHBOR	include/xv_vcresampler_l2.h	/^   XV_VCRSMPLR_TYPE_NEAREST_NEIGHBOR = 0,$/;"	e	enum:__anon3
+XV_VCrsmplDbgReportStatus	xv_vcresampler_l2.c	/^void XV_VCrsmplDbgReportStatus(XV_Vcresampler_l2 *InstancePtr)$/;"	f
+XV_VCrsmplLoadDefaultCoeff	xv_vcresampler_l2.c	/^void XV_VCrsmplLoadDefaultCoeff(XV_Vcresampler_l2 *InstancePtr)$/;"	f
+XV_VCrsmplSetActiveSize	xv_vcresampler_l2.c	/^void XV_VCrsmplSetActiveSize(XV_Vcresampler_l2 *InstancePtr,$/;"	f
+XV_VCrsmplSetFormat	xv_vcresampler_l2.c	/^void XV_VCrsmplSetFormat(XV_Vcresampler_l2 *InstancePtr,$/;"	f
+XV_VCrsmplStart	xv_vcresampler_l2.c	/^void XV_VCrsmplStart(XV_Vcresampler_l2 *InstancePtr)$/;"	f
+XV_VCrsmplStop	xv_vcresampler_l2.c	/^void XV_VCrsmplStop(XV_Vcresampler_l2 *InstancePtr)$/;"	f
+XV_VCrsmplrLoadExtCoeff	xv_vcresampler_l2.c	/^void XV_VCrsmplrLoadExtCoeff(XV_Vcresampler_l2 *InstancePtr,$/;"	f
+XV_Vcresampler_l2	include/xv_vcresampler_l2.h	/^ }XV_Vcresampler_l2;$/;"	t	typeref:struct:__anon4
+XV_VcrsmplInitialize	xv_vcresampler_l2.c	/^int XV_VcrsmplInitialize(XV_Vcresampler_l2 *InstancePtr, u16 DeviceId)$/;"	f
+XV_vcresampler	include/xv_vcresampler.h	/^} XV_vcresampler;$/;"	t	typeref:struct:__anon6
+XV_vcresampler_CfgInitialize	xv_vcresampler.c	/^int XV_vcresampler_CfgInitialize(XV_vcresampler *InstancePtr,$/;"	f
+XV_vcresampler_Config	include/xv_vcresampler.h	/^} XV_vcresampler_Config;$/;"	t	typeref:struct:__anon5
+XV_vcresampler_DisableAutoRestart	xv_vcresampler.c	/^void XV_vcresampler_DisableAutoRestart(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_EnableAutoRestart	xv_vcresampler.c	/^void XV_vcresampler_EnableAutoRestart(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Get_HwReg_coefs_0_0	xv_vcresampler.c	/^u32 XV_vcresampler_Get_HwReg_coefs_0_0(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Get_HwReg_height	xv_vcresampler.c	/^u32 XV_vcresampler_Get_HwReg_height(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Get_HwReg_input_video_format	xv_vcresampler.c	/^u32 XV_vcresampler_Get_HwReg_input_video_format(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Get_HwReg_output_video_format	xv_vcresampler.c	/^u32 XV_vcresampler_Get_HwReg_output_video_format(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Get_HwReg_width	xv_vcresampler.c	/^u32 XV_vcresampler_Get_HwReg_width(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_Initialize	xv_vcresampler_linux.c	/^int XV_vcresampler_Initialize(XV_vcresampler *InstancePtr, const char* InstanceName) {$/;"	f
+XV_vcresampler_InterruptClear	xv_vcresampler.c	/^void XV_vcresampler_InterruptClear(XV_vcresampler *InstancePtr, u32 Mask) {$/;"	f
+XV_vcresampler_InterruptDisable	xv_vcresampler.c	/^void XV_vcresampler_InterruptDisable(XV_vcresampler *InstancePtr, u32 Mask) {$/;"	f
+XV_vcresampler_InterruptEnable	xv_vcresampler.c	/^void XV_vcresampler_InterruptEnable(XV_vcresampler *InstancePtr, u32 Mask) {$/;"	f
+XV_vcresampler_InterruptGetEnabled	xv_vcresampler.c	/^u32 XV_vcresampler_InterruptGetEnabled(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_InterruptGetStatus	xv_vcresampler.c	/^u32 XV_vcresampler_InterruptGetStatus(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_InterruptGlobalDisable	xv_vcresampler.c	/^void XV_vcresampler_InterruptGlobalDisable(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_InterruptGlobalEnable	xv_vcresampler.c	/^void XV_vcresampler_InterruptGlobalEnable(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_IsDone	xv_vcresampler.c	/^u32 XV_vcresampler_IsDone(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_IsIdle	xv_vcresampler.c	/^u32 XV_vcresampler_IsIdle(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_IsReady	xv_vcresampler.c	/^u32 XV_vcresampler_IsReady(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_ReadReg	include/xv_vcresampler.h	71;"	d
+XV_vcresampler_ReadReg	include/xv_vcresampler.h	76;"	d
+XV_vcresampler_Release	xv_vcresampler_linux.c	/^int XV_vcresampler_Release(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_SetCoefficients	xv_vcresampler_l2.c	/^static void XV_vcresampler_SetCoefficients(XV_Vcresampler_l2 *pVCrsmplr,$/;"	f	file:
+XV_vcresampler_Set_HwReg_coefs_0_0	xv_vcresampler.c	/^void XV_vcresampler_Set_HwReg_coefs_0_0(XV_vcresampler *InstancePtr, u32 Data) {$/;"	f
+XV_vcresampler_Set_HwReg_height	xv_vcresampler.c	/^void XV_vcresampler_Set_HwReg_height(XV_vcresampler *InstancePtr, u32 Data) {$/;"	f
+XV_vcresampler_Set_HwReg_input_video_format	xv_vcresampler.c	/^void XV_vcresampler_Set_HwReg_input_video_format(XV_vcresampler *InstancePtr, u32 Data) {$/;"	f
+XV_vcresampler_Set_HwReg_output_video_format	xv_vcresampler.c	/^void XV_vcresampler_Set_HwReg_output_video_format(XV_vcresampler *InstancePtr, u32 Data) {$/;"	f
+XV_vcresampler_Set_HwReg_width	xv_vcresampler.c	/^void XV_vcresampler_Set_HwReg_width(XV_vcresampler *InstancePtr, u32 Data) {$/;"	f
+XV_vcresampler_Start	xv_vcresampler.c	/^void XV_vcresampler_Start(XV_vcresampler *InstancePtr) {$/;"	f
+XV_vcresampler_WriteReg	include/xv_vcresampler.h	69;"	d
+XV_vcresampler_WriteReg	include/xv_vcresampler.h	74;"	d
+XV_vcresampler_uio_info	xv_vcresampler_linux.c	/^} XV_vcresampler_uio_info;$/;"	t	typeref:struct:__anon26	file:
+XV_vcresampler_uio_map	xv_vcresampler_linux.c	/^} XV_vcresampler_uio_map;$/;"	t	typeref:struct:__anon25	file:
+XV_vcrsmplrcoeff_taps10	xv_vcresampler_coeff.c	/^const short XV_vcrsmplrcoeff_taps10[XV_VCRSMPLR_NUM_CONVERSIONS][XV_VCRSMPLR_MAX_PHASES][XV_VCRSMPLR_TAPS_10] =$/;"	v
+XV_vcrsmplrcoeff_taps4	xv_vcresampler_coeff.c	/^const short XV_vcrsmplrcoeff_taps4[XV_VCRSMPLR_NUM_CONVERSIONS][XV_VCRSMPLR_MAX_PHASES][XV_VCRSMPLR_TAPS_4] =$/;"	v
+XV_vcrsmplrcoeff_taps6	xv_vcresampler_coeff.c	/^const short XV_vcrsmplrcoeff_taps6[XV_VCRSMPLR_NUM_CONVERSIONS][XV_VCRSMPLR_MAX_PHASES][XV_VCRSMPLR_TAPS_6] =$/;"	v
+XV_vcrsmplrcoeff_taps8	xv_vcresampler_coeff.c	/^const short XV_vcrsmplrcoeff_taps8[XV_VCRSMPLR_NUM_CONVERSIONS][XV_VCRSMPLR_MAX_PHASES][XV_VCRSMPLR_TAPS_8] =$/;"	v
+XVidC_3DFormat	include/xvidc.h	/^} XVidC_3DFormat;$/;"	t	typeref:enum:__anon16
+XVidC_3DInfo	include/xvidc.h	/^} XVidC_3DInfo;$/;"	t	typeref:struct:__anon21
+XVidC_3DSamplingInfo	include/xvidc.h	/^} XVidC_3DSamplingInfo;$/;"	t	typeref:struct:__anon20
+XVidC_3DSamplingMethod	include/xvidc.h	/^} XVidC_3DSamplingMethod;$/;"	t	typeref:enum:__anon17
+XVidC_3DSamplingPosition	include/xvidc.h	/^} XVidC_3DSamplingPosition;$/;"	t	typeref:enum:__anon18
+XVidC_AspectRatio	include/xvidc.h	/^} XVidC_AspectRatio;$/;"	t	typeref:enum:__anon13
+XVidC_ColorDepth	include/xvidc.h	/^} XVidC_ColorDepth;$/;"	t	typeref:enum:__anon10
+XVidC_ColorFormat	include/xvidc.h	/^} XVidC_ColorFormat;$/;"	t	typeref:enum:__anon12
+XVidC_ColorRange	include/xvidc.h	/^} XVidC_ColorRange;$/;"	t	typeref:enum:__anon15
+XVidC_ColorStd	include/xvidc.h	/^} XVidC_ColorStd;$/;"	t	typeref:enum:__anon14
+XVidC_DelayHandler	include/xvidc.h	/^typedef void (*XVidC_DelayHandler)(void *TimerPtr, u32 Delay);$/;"	t
+XVidC_FrameRate	include/xvidc.h	/^} XVidC_FrameRate;$/;"	t	typeref:enum:__anon9
+XVidC_GetColorFormatStr	xvidc.c	/^const char *XVidC_GetColorFormatStr(XVidC_ColorFormat ColorFormatId)$/;"	f
+XVidC_IsStream3D	include/xvidc.h	658;"	d
+XVidC_PixelsPerClock	include/xvidc.h	/^} XVidC_PixelsPerClock;$/;"	t	typeref:enum:__anon11
+XVidC_VideoFormat	include/xvidc.h	/^} XVidC_VideoFormat;$/;"	t	typeref:enum:__anon8
+XVidC_VideoMode	include/xvidc.h	/^} XVidC_VideoMode;$/;"	t	typeref:enum:__anon7
+XVidC_VideoStream	include/xvidc.h	/^} XVidC_VideoStream;$/;"	t	typeref:struct:__anon22
+XVidC_VideoTiming	include/xvidc.h	/^} XVidC_VideoTiming;$/;"	t	typeref:struct:__anon19
+XVidC_VideoTimingMode	include/xvidc.h	/^} XVidC_VideoTimingMode;$/;"	t	typeref:struct:__anon24
+XVidC_VideoWindow	include/xvidc.h	/^} XVidC_VideoWindow;$/;"	t	typeref:struct:__anon23
+Xil_AssertNonvoid	include/xv_vcresampler.h	80;"	d
+Xil_AssertVoid	include/xv_vcresampler.h	79;"	d
+Xil_In32	xv_vcresampler_l2.c	37;"	d	file:
+Xil_Out32	xv_vcresampler_l2.c	38;"	d	file:
+addr	xv_vcresampler_linux.c	/^    u32 addr;$/;"	m	struct:__anon25	file:
+coeff	include/xv_vcresampler_l2.h	/^   short coeff[XV_VCRSMPLR_NUM_CONVERSIONS][XV_VCRSMPLR_MAX_PHASES][XV_VCRSMPLR_MAX_TAPS];$/;"	m	struct:__anon4
+line_from_file	xv_vcresampler_linux.c	/^static int line_from_file(char* filename, char* linebuf) {$/;"	f	file:
+main	test/reg_rw.c	/^int main(void)$/;"	f
+maps	xv_vcresampler_linux.c	/^    XV_vcresampler_uio_map maps[ MAX_UIO_MAPS ];$/;"	m	struct:__anon26	file:
+name	xv_vcresampler_linux.c	/^    char name[ MAX_UIO_NAME_SIZE ];$/;"	m	struct:__anon26	file:
+size	xv_vcresampler_linux.c	/^    u32 size;$/;"	m	struct:__anon25	file:
+u16	include/xv_vcresampler.h	/^typedef uint16_t u16;$/;"	t
+u32	include/xv_vcresampler.h	/^typedef uint32_t u32;$/;"	t
+u64	include/xv_vcresampler.h	/^typedef uint64_t u64;$/;"	t
+u8	include/xv_vcresampler.h	/^typedef uint8_t u8;$/;"	t
+uio_fd	xv_vcresampler_linux.c	/^    int  uio_fd;$/;"	m	struct:__anon26	file:
+uio_info	xv_vcresampler_linux.c	/^static XV_vcresampler_uio_info uio_info;$/;"	v	file:
+uio_info_read_map_addr	xv_vcresampler_linux.c	/^static int uio_info_read_map_addr(XV_vcresampler_uio_info* info, int n) {$/;"	f	file:
+uio_info_read_map_size	xv_vcresampler_linux.c	/^static int uio_info_read_map_size(XV_vcresampler_uio_info* info, int n) {$/;"	f	file:
+uio_info_read_name	xv_vcresampler_linux.c	/^static int uio_info_read_name(XV_vcresampler_uio_info* info) {$/;"	f	file:
+uio_info_read_version	xv_vcresampler_linux.c	/^static int uio_info_read_version(XV_vcresampler_uio_info* info) {$/;"	f	file:
+uio_num	xv_vcresampler_linux.c	/^    int  uio_num;$/;"	m	struct:__anon26	file:
+version	xv_vcresampler_linux.c	/^    char version[ MAX_UIO_NAME_SIZE ];$/;"	m	struct:__anon26	file:

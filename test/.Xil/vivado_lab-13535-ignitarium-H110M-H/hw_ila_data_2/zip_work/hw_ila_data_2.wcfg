@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/ignitarium/JK/Shahan/VCUNV12/Test_irq/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2049fs"></ZoomEndTime>
+      <Cursor1Time time="2048fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="536"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="40" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="Delonixt_top/Delonix_i/s2mm_ptr_2k_hdmi_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/s2mm_ptr_2k_hdmi_1[5:0]</obj_property>
+      <obj_property name="ObjectShortName">s2mm_ptr_2k_hdmi_1[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_AWREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_hdmi_interconnect_M00_AXI_AWREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_AWVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_hdmi_interconnect_M00_AXI_AWVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_BREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_hdmi_interconnect_M00_AXI_BREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_WVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/axi_hdmi_interconnect_M00_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_hdmi_interconnect_M00_AXI_WVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TLAST</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TUSER</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_reset_hdmi_peripheral_vpssresetn">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_reset_hdmi_peripheral_vpssresetn</obj_property>
+      <obj_property name="ObjectShortName">hdmi_reset_hdmi_peripheral_vpssresetn</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_reset_hdmi_videoclk_peripheral_vpssresetn">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_reset_hdmi_videoclk_peripheral_vpssresetn</obj_property>
+      <obj_property name="ObjectShortName">hdmi_reset_hdmi_videoclk_peripheral_vpssresetn</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_interleaved_convr_o_fifo_rst_trig">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_interleaved_convr_o_fifo_rst_trig</obj_property>
+      <obj_property name="ObjectShortName">rx_interleaved_convr_o_fifo_rst_trig</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_path_reset_rx_rxoutclk0_fifo_peripheral_reset">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_path_reset_rx_rxoutclk0_fifo_peripheral_reset</obj_property>
+      <obj_property name="ObjectShortName">rx_path_reset_rx_rxoutclk0_fifo_peripheral_reset</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_path_reset_rx_rxoutclk0_peripheral_rxreset">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_path_reset_rx_rxoutclk0_peripheral_rxreset</obj_property>
+      <obj_property name="ObjectShortName">rx_path_reset_rx_rxoutclk0_peripheral_rxreset</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_fifo_peripheral_ereset">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_fifo_peripheral_ereset</obj_property>
+      <obj_property name="ObjectShortName">rx_path_reset_rx_videoclk_fifo_peripheral_ereset</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_peripheral_rxreset">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_peripheral_rxreset</obj_property>
+      <obj_property name="ObjectShortName">rx_path_reset_rx_videoclk_peripheral_rxreset</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_peripheral_rxresetn">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_path_reset_rx_videoclk_peripheral_rxresetn</obj_property>
+      <obj_property name="ObjectShortName">rx_path_reset_rx_videoclk_peripheral_rxresetn</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_vid_v_blank">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_vid_v_blank</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_vid_v_blank</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TUSER</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TVALID</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/tx_path_reset_1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/tx_path_reset_1</obj_property>
+      <obj_property name="ObjectShortName">tx_path_reset_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_vid_v_blank">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_vid_v_blank</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_vid_v_blank</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TREADY</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/HDMI_TX/v_proc_ss_0_m_axis_TVALID</obj_property>
+      <obj_property name="ObjectShortName">v_proc_ss_0_m_axis_TVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TVALID</obj_property>
+      <obj_property name="ObjectShortName">rx_interleaved_convr_m_axis_interleaved_TVALID</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TREADY</obj_property>
+      <obj_property name="ObjectShortName">rx_interleaved_convr_m_axis_interleaved_TREADY</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TLAST</obj_property>
+      <obj_property name="ObjectShortName">rx_interleaved_convr_m_axis_interleaved_TLAST</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/rx_interleaved_convr_m_axis_interleaved_TUSER</obj_property>
+      <obj_property name="ObjectShortName">rx_interleaved_convr_m_axis_interleaved_TUSER</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TVALID</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TREADY</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TLAST</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/hdmi_4k_vdma_M_AXIS_MM2S_TUSER</obj_property>
+      <obj_property name="ObjectShortName">hdmi_4k_vdma_M_AXIS_MM2S_TUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TVALID">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TVALID</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TREADY">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TREADY</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TLAST">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TLAST</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TUSER">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">Delonixt_top/Delonix_i/SDI_RX_video_out_2k_interleaved_TUSER</obj_property>
+      <obj_property name="ObjectShortName">SDI_RX_video_out_2k_interleaved_TUSER</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

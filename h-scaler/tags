@@ -1,0 +1,175 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARCHIVER	Makefile	/^ARCHIVER=$(AR)$/;"	m
+BaseAddress	xv_hscaler.h	/^    UINTPTR BaseAddress;  \/**< The base address of the core instance. *\/$/;"	m	struct:__anon1
+COMPILER	Makefile	/^COMPILER=$(CC)$/;"	m
+CP	Makefile	/^CP=cp$/;"	m
+CalculatePhases	xv_hscaler_l2.c	/^static void CalculatePhases(XV_Hscaler_l2 *HscPtr,$/;"	f	file:
+Config	xv_hscaler.h	/^    XV_hscaler_Config Config; \/**< Hardware Configuration *\/$/;"	m	struct:__anon2
+DeviceId	xv_hscaler.h	/^    u16 DeviceId;         \/**< Unique ID  of device *\/$/;"	m	struct:__anon1
+EXTRA_COMPILER_FLAGS	Makefile	/^EXTRA_COMPILER_FLAGS=-Wall -Wextra$/;"	m
+Hsc	xv_hscaler_l2.h	/^  XV_hscaler Hsc; \/*<< Layer 1 instance *\/$/;"	m	struct:__anon5
+INCLUDEDIR	Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INCLUDEFILES	Makefile	/^INCLUDEFILES=$(wildcard *.h)$/;"	m
+INCLUDES	Makefile	/^INCLUDES=-I.\/. -I${INCLUDEDIR}$/;"	m
+Is420Enabled	xv_hscaler.h	/^    u16 Is420Enabled;     \/**< Color format YUV420 supported by instance *\/$/;"	m	struct:__anon1
+Is422Enabled	xv_hscaler.h	/^    u16 Is422Enabled;     \/**< Color format YUV422 supported by instance *\/$/;"	m	struct:__anon1
+IsCscEnabled	xv_hscaler.h	/^    u16 IsCscEnabled;     \/**< Color space conversion supported by instance *\/$/;"	m	struct:__anon1
+IsReady	xv_hscaler.h	/^    u32 IsReady;              \/**< Device is initialized and ready *\/$/;"	m	struct:__anon2
+LIB	Makefile	/^LIB=libxil.a$/;"	m
+LIBSOURCES	Makefile	/^LIBSOURCES=$(wildcard *.c)$/;"	m
+MaxDataWidth	xv_hscaler.h	/^    u16 MaxDataWidth;     \/**< Maximum Data width of each channel *\/$/;"	m	struct:__anon1
+MaxHeight	xv_hscaler.h	/^    u16 MaxHeight;        \/**< Maximum rows supported by core instance *\/$/;"	m	struct:__anon1
+MaxWidth	xv_hscaler.h	/^    u16 MaxWidth;         \/**< Maximum columns supported by core instance *\/$/;"	m	struct:__anon1
+NumTaps	xv_hscaler.h	/^    u16 NumTaps;          \/**< Number of taps *\/$/;"	m	struct:__anon1
+NumVidComponents	xv_hscaler.h	/^    u16 NumVidComponents; \/**< Number of Video Components *\/$/;"	m	struct:__anon1
+OBJECTS	Makefile	/^OBJECTS = $(addsuffix .o, $(basename $(wildcard *.c)))$/;"	m
+OUTS	Makefile	/^OUTS = *.o$/;"	m
+PhaseShift	xv_hscaler.h	/^    u16 PhaseShift;       \/**< Max num of phases (2^PhaseShift) *\/$/;"	m	struct:__anon1
+PixPerClk	xv_hscaler.h	/^    u16 PixPerClk;        \/**< Samples Per Clock supported by core instance *\/$/;"	m	struct:__anon1
+RELEASEDIR	Makefile	/^RELEASEDIR=..\/lib$/;"	m
+STEP_PRECISION	xv_hscaler_l2.c	42;"	d	file:
+STEP_PRECISION_SHIFT	xv_hscaler_l2.c	/^static const int STEP_PRECISION_SHIFT = 16;$/;"	v	file:
+ScalerType	xv_hscaler.h	/^    u16 ScalerType;       \/**< Scaling Algorithm Selected *\/$/;"	m	struct:__anon1
+UINTPTR	xv_hscaler.h	/^typedef uintptr_t UINTPTR;$/;"	t
+UseExtCoeff	xv_hscaler_l2.h	/^  u8 UseExtCoeff;$/;"	m	struct:__anon5
+XHSC_MASK_HIGH_16BITS	xv_hscaler_l2.c	46;"	d	file:
+XHSC_MASK_LOW_12BITS	xv_hscaler_l2.c	48;"	d	file:
+XHSC_MASK_LOW_16BITS	xv_hscaler_l2.c	45;"	d	file:
+XHSC_MASK_LOW_20BITS	xv_hscaler_l2.c	47;"	d	file:
+XHSC_MASK_LOW_32BITS	xv_hscaler_l2.c	/^static const u64 XHSC_MASK_LOW_32BITS = ((u64)1<<32)-1;$/;"	v	file:
+XIL_COMPONENT_IS_READY	xv_hscaler.h	90;"	d
+XPAR_XV_HSCALER_NUM_INSTANCES	xv_hscaler_sinit.c	13;"	d	file:
+XST_DEVICE_NOT_FOUND	xv_hscaler.h	88;"	d
+XST_FAILURE	xv_hscaler.h	87;"	d
+XST_OPEN_DEVICE_FAILED	xv_hscaler.h	89;"	d
+XST_SUCCESS	xv_hscaler.h	86;"	d
+XV_HSCALER_BICUBIC	xv_hscaler_l2.h	/^  XV_HSCALER_BICUBIC,$/;"	e	enum:__anon3
+XV_HSCALER_BILINEAR	xv_hscaler_l2.h	/^  XV_HSCALER_BILINEAR = 0,$/;"	e	enum:__anon3
+XV_HSCALER_CTRL_ADDR_AP_CTRL	xv_hscaler_hw.h	66;"	d
+XV_HSCALER_CTRL_ADDR_GIE	xv_hscaler_hw.h	67;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_COLORMODEOUT_DATA	xv_hscaler_hw.h	80;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_COLORMODE_DATA	xv_hscaler_hw.h	76;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_HEIGHT_DATA	xv_hscaler_hw.h	70;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_HFLTCOEFF_BASE	xv_hscaler_hw.h	82;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_HFLTCOEFF_HIGH	xv_hscaler_hw.h	83;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_PHASESH_V_BASE	xv_hscaler_hw.h	86;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_PHASESH_V_HIGH	xv_hscaler_hw.h	87;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_PIXELRATE_DATA	xv_hscaler_hw.h	78;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_WIDTHIN_DATA	xv_hscaler_hw.h	72;"	d
+XV_HSCALER_CTRL_ADDR_HWREG_WIDTHOUT_DATA	xv_hscaler_hw.h	74;"	d
+XV_HSCALER_CTRL_ADDR_IER	xv_hscaler_hw.h	68;"	d
+XV_HSCALER_CTRL_ADDR_ISR	xv_hscaler_hw.h	69;"	d
+XV_HSCALER_CTRL_BITS_HWREG_COLORMODEOUT_DATA	xv_hscaler_hw.h	81;"	d
+XV_HSCALER_CTRL_BITS_HWREG_COLORMODE_DATA	xv_hscaler_hw.h	77;"	d
+XV_HSCALER_CTRL_BITS_HWREG_HEIGHT_DATA	xv_hscaler_hw.h	71;"	d
+XV_HSCALER_CTRL_BITS_HWREG_PIXELRATE_DATA	xv_hscaler_hw.h	79;"	d
+XV_HSCALER_CTRL_BITS_HWREG_WIDTHIN_DATA	xv_hscaler_hw.h	73;"	d
+XV_HSCALER_CTRL_BITS_HWREG_WIDTHOUT_DATA	xv_hscaler_hw.h	75;"	d
+XV_HSCALER_CTRL_DEPTH_HWREG_HFLTCOEFF	xv_hscaler_hw.h	85;"	d
+XV_HSCALER_CTRL_DEPTH_HWREG_PHASESH_V	xv_hscaler_hw.h	89;"	d
+XV_HSCALER_CTRL_WIDTH_HWREG_HFLTCOEFF	xv_hscaler_hw.h	84;"	d
+XV_HSCALER_CTRL_WIDTH_HWREG_PHASESH_V	xv_hscaler_hw.h	88;"	d
+XV_HSCALER_H	xv_hscaler.h	7;"	d
+XV_HSCALER_HW_H_	xv_hscaler_hw.h	7;"	d
+XV_HSCALER_L2_H	xv_hscaler_l2.h	77;"	d
+XV_HSCALER_MAX_H_PHASES	xv_hscaler_l2.h	92;"	d
+XV_HSCALER_MAX_H_TAPS	xv_hscaler_l2.h	91;"	d
+XV_HSCALER_MAX_LINE_WIDTH	xv_hscaler_l2.h	93;"	d
+XV_HSCALER_POLYPHASE	xv_hscaler_l2.h	/^  XV_HSCALER_POLYPHASE$/;"	e	enum:__anon3
+XV_HSCALER_TAPS	xv_hscaler_l2.h	/^}XV_HSCALER_TAPS;$/;"	t	typeref:enum:__anon4
+XV_HSCALER_TAPS_10	xv_hscaler_l2.h	/^  XV_HSCALER_TAPS_10 = 10,$/;"	e	enum:__anon4
+XV_HSCALER_TAPS_12	xv_hscaler_l2.h	/^  XV_HSCALER_TAPS_12 = 12$/;"	e	enum:__anon4
+XV_HSCALER_TAPS_6	xv_hscaler_l2.h	/^  XV_HSCALER_TAPS_6  = 6,$/;"	e	enum:__anon4
+XV_HSCALER_TAPS_8	xv_hscaler_l2.h	/^  XV_HSCALER_TAPS_8  = 8,$/;"	e	enum:__anon4
+XV_HSCALER_TYPE	xv_hscaler_l2.h	/^}XV_HSCALER_TYPE;$/;"	t	typeref:enum:__anon3
+XV_HScalerDbgReportStatus	xv_hscaler_l2.c	/^void XV_HScalerDbgReportStatus(XV_Hscaler_l2 *InstancePtr)$/;"	f
+XV_HScalerInitialize	xv_hscaler_l2.c	/^int XV_HScalerInitialize(XV_Hscaler_l2 *InstancePtr, u16 DeviceId)$/;"	f
+XV_HScalerLoadExtCoeff	xv_hscaler_l2.c	/^void XV_HScalerLoadExtCoeff(XV_Hscaler_l2 *InstancePtr,$/;"	f
+XV_HScalerSelectCoeff	xv_hscaler_l2.c	/^static void XV_HScalerSelectCoeff(XV_Hscaler_l2 *InstancePtr,$/;"	f	file:
+XV_HScalerSetCoeff	xv_hscaler_l2.c	/^static void XV_HScalerSetCoeff(XV_Hscaler_l2 *HscPtr)$/;"	f	file:
+XV_HScalerSetPhase	xv_hscaler_l2.c	/^static void XV_HScalerSetPhase(XV_Hscaler_l2 *HscPtr)$/;"	f	file:
+XV_HScalerSetup	xv_hscaler_l2.c	/^int XV_HScalerSetup(XV_Hscaler_l2  *InstancePtr,$/;"	f
+XV_HScalerStart	xv_hscaler_l2.c	/^void XV_HScalerStart(XV_Hscaler_l2 *InstancePtr)$/;"	f
+XV_HScalerStop	xv_hscaler_l2.c	/^void XV_HScalerStop(XV_Hscaler_l2 *InstancePtr)$/;"	f
+XV_HScalerValidateConfig	xv_hscaler_l2.c	/^int XV_HScalerValidateConfig(XV_Hscaler_l2 *InstancePtr,$/;"	f
+XV_HscalerIs420Enabled	xv_hscaler_l2.h	154;"	d
+XV_HscalerIs422Enabled	xv_hscaler_l2.h	142;"	d
+XV_HscalerIsCscEnabled	xv_hscaler_l2.h	166;"	d
+XV_Hscaler_l2	xv_hscaler_l2.h	/^}XV_Hscaler_l2;$/;"	t	typeref:struct:__anon5
+XV_hscaler	xv_hscaler.h	/^} XV_hscaler;$/;"	t	typeref:struct:__anon2
+XV_hscaler_CfgInitialize	xv_hscaler.c	/^int XV_hscaler_CfgInitialize(XV_hscaler *InstancePtr,$/;"	f
+XV_hscaler_Config	xv_hscaler.h	/^} XV_hscaler_Config;$/;"	t	typeref:struct:__anon1
+XV_hscaler_DisableAutoRestart	xv_hscaler.c	/^void XV_hscaler_DisableAutoRestart(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_EnableAutoRestart	xv_hscaler.c	/^void XV_hscaler_EnableAutoRestart(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_ColorMode	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_ColorMode(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_ColorModeOut	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_ColorModeOut(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_Height	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_Height(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_PixelRate	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_PixelRate(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_WidthIn	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_WidthIn(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_WidthOut	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_WidthOut(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_hfltCoeff_BaseAddress	xv_hscaler.c	/^UINTPTR XV_hscaler_Get_HwReg_hfltCoeff_BaseAddress(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_hfltCoeff_BitWidth	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_hfltCoeff_BitWidth(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_hfltCoeff_Depth	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_hfltCoeff_Depth(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_hfltCoeff_HighAddress	xv_hscaler.c	/^UINTPTR XV_hscaler_Get_HwReg_hfltCoeff_HighAddress(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_hfltCoeff_TotalBytes	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_hfltCoeff_TotalBytes(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_phasesH_V_BaseAddress	xv_hscaler.c	/^UINTPTR XV_hscaler_Get_HwReg_phasesH_V_BaseAddress(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_phasesH_V_BitWidth	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_phasesH_V_BitWidth(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_phasesH_V_Depth	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_phasesH_V_Depth(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_phasesH_V_HighAddress	xv_hscaler.c	/^UINTPTR XV_hscaler_Get_HwReg_phasesH_V_HighAddress(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Get_HwReg_phasesH_V_TotalBytes	xv_hscaler.c	/^u32 XV_hscaler_Get_HwReg_phasesH_V_TotalBytes(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Initialize	xv_hscaler_sinit.c	/^int XV_hscaler_Initialize(XV_hscaler *InstancePtr, u16 DeviceId) {$/;"	f
+XV_hscaler_InterruptClear	xv_hscaler.c	/^void XV_hscaler_InterruptClear(XV_hscaler *InstancePtr, u32 Mask) {$/;"	f
+XV_hscaler_InterruptDisable	xv_hscaler.c	/^void XV_hscaler_InterruptDisable(XV_hscaler *InstancePtr, u32 Mask) {$/;"	f
+XV_hscaler_InterruptEnable	xv_hscaler.c	/^void XV_hscaler_InterruptEnable(XV_hscaler *InstancePtr, u32 Mask) {$/;"	f
+XV_hscaler_InterruptGetEnabled	xv_hscaler.c	/^u32 XV_hscaler_InterruptGetEnabled(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_InterruptGetStatus	xv_hscaler.c	/^u32 XV_hscaler_InterruptGetStatus(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_InterruptGlobalDisable	xv_hscaler.c	/^void XV_hscaler_InterruptGlobalDisable(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_InterruptGlobalEnable	xv_hscaler.c	/^void XV_hscaler_InterruptGlobalEnable(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_IsDone	xv_hscaler.c	/^u32 XV_hscaler_IsDone(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_IsIdle	xv_hscaler.c	/^u32 XV_hscaler_IsIdle(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_IsReady	xv_hscaler.c	/^u32 XV_hscaler_IsReady(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_Lanczos2_taps6	xv_hscaler_coeff.c	/^const short XV_hscaler_Lanczos2_taps6[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_6] =$/;"	v
+XV_hscaler_LookupConfig	xv_hscaler_sinit.c	/^XV_hscaler_Config *XV_hscaler_LookupConfig(u16 DeviceId) {$/;"	f
+XV_hscaler_ReadReg	xv_hscaler.h	75;"	d
+XV_hscaler_ReadReg	xv_hscaler.h	80;"	d
+XV_hscaler_Read_HwReg_hfltCoeff_Bytes	xv_hscaler.c	/^u32 XV_hscaler_Read_HwReg_hfltCoeff_Bytes(XV_hscaler *InstancePtr, int offset, char *data, int length) {$/;"	f
+XV_hscaler_Read_HwReg_hfltCoeff_Words	xv_hscaler.c	/^u32 XV_hscaler_Read_HwReg_hfltCoeff_Words(XV_hscaler *InstancePtr, int offset, int *data, int length) {$/;"	f
+XV_hscaler_Read_HwReg_phasesH_V_Bytes	xv_hscaler.c	/^u32 XV_hscaler_Read_HwReg_phasesH_V_Bytes(XV_hscaler *InstancePtr, int offset, char *data, int length) {$/;"	f
+XV_hscaler_Read_HwReg_phasesH_V_Words	xv_hscaler.c	/^u32 XV_hscaler_Read_HwReg_phasesH_V_Words(XV_hscaler *InstancePtr, int offset, int *data, int length) {$/;"	f
+XV_hscaler_Set_HwReg_ColorMode	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_ColorMode(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Set_HwReg_ColorModeOut	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_ColorModeOut(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Set_HwReg_Height	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_Height(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Set_HwReg_PixelRate	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_PixelRate(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Set_HwReg_WidthIn	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_WidthIn(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Set_HwReg_WidthOut	xv_hscaler.c	/^void XV_hscaler_Set_HwReg_WidthOut(XV_hscaler *InstancePtr, u32 Data) {$/;"	f
+XV_hscaler_Start	xv_hscaler.c	/^void XV_hscaler_Start(XV_hscaler *InstancePtr) {$/;"	f
+XV_hscaler_WriteReg	xv_hscaler.h	73;"	d
+XV_hscaler_WriteReg	xv_hscaler.h	78;"	d
+XV_hscaler_Write_HwReg_hfltCoeff_Bytes	xv_hscaler.c	/^u32 XV_hscaler_Write_HwReg_hfltCoeff_Bytes(XV_hscaler *InstancePtr, int offset, char *data, int length) {$/;"	f
+XV_hscaler_Write_HwReg_hfltCoeff_Words	xv_hscaler.c	/^u32 XV_hscaler_Write_HwReg_hfltCoeff_Words(XV_hscaler *InstancePtr, int offset, int *data, int length) {$/;"	f
+XV_hscaler_Write_HwReg_phasesH_V_Bytes	xv_hscaler.c	/^u32 XV_hscaler_Write_HwReg_phasesH_V_Bytes(XV_hscaler *InstancePtr, int offset, char *data, int length) {$/;"	f
+XV_hscaler_Write_HwReg_phasesH_V_Words	xv_hscaler.c	/^u32 XV_hscaler_Write_HwReg_phasesH_V_Words(XV_hscaler *InstancePtr, int offset, int *data, int length) {$/;"	f
+XV_hscaler_fixedcoeff_taps10_ScalingRatio3	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps10_ScalingRatio3[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_10] = {$/;"	v
+XV_hscaler_fixedcoeff_taps10_ScalingRatio4	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps10_ScalingRatio4[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_10] = {$/;"	v
+XV_hscaler_fixedcoeff_taps12_ScalingRatio4	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps12_ScalingRatio4[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_12] = {$/;"	v
+XV_hscaler_fixedcoeff_taps6_ScalingRatio1p2	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps6_ScalingRatio1p2[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_6] =$/;"	v
+XV_hscaler_fixedcoeff_taps6_ScalingRatio2	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps6_ScalingRatio2[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_6] =$/;"	v
+XV_hscaler_fixedcoeff_taps6_ScalingRatio3	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps6_ScalingRatio3[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_6] = {$/;"	v
+XV_hscaler_fixedcoeff_taps6_ScalingRatio4	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps6_ScalingRatio4[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_6] = {$/;"	v
+XV_hscaler_fixedcoeff_taps8_ScalingRatio2	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps8_ScalingRatio2[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_8] = {$/;"	v
+XV_hscaler_fixedcoeff_taps8_ScalingRatio3	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps8_ScalingRatio3[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_8] = {$/;"	v
+XV_hscaler_fixedcoeff_taps8_ScalingRatio4	xv_hscaler_coeff.c	/^const short XV_hscaler_fixedcoeff_taps8_ScalingRatio4[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_TAPS_8] = {$/;"	v
+Xil_AssertNonvoid	xv_hscaler.h	84;"	d
+Xil_AssertVoid	xv_hscaler.h	83;"	d
+coeff	xv_hscaler_l2.h	/^  short coeff[XV_HSCALER_MAX_H_PHASES][XV_HSCALER_MAX_H_TAPS];$/;"	m	struct:__anon5
+phasesH	xv_hscaler_l2.h	/^  u64 phasesH[XV_HSCALER_MAX_LINE_WIDTH];$/;"	m	struct:__anon5
+phasesH_H	xv_hscaler_l2.h	/^  u64 phasesH_H[XV_HSCALER_MAX_LINE_WIDTH];$/;"	m	struct:__anon5
+u16	xv_hscaler.h	/^typedef uint16_t u16;$/;"	t
+u32	xv_hscaler.h	/^typedef uint32_t u32;$/;"	t
+u64	xv_hscaler.h	/^typedef uint64_t u64;$/;"	t
+u8	xv_hscaler.h	/^typedef uint8_t u8;$/;"	t
