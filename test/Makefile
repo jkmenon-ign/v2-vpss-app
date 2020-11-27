@@ -15,10 +15,3 @@ $(APP) : $(APP_OBJS)
 
 clean:
 	rm -rf $(APP_OBJS)
-
-install:
-	$(info D is ${DESTDIR})
-	$(info B is ${BUILDDIR})
-	mkdir -p ${DESTDIR}/usr/bin
-	cp ${BUIDDIR}/test/vpss_app ${DESTDIR}/usr/bin
-
