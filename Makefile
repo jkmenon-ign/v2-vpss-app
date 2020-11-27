@@ -7,6 +7,9 @@ SUBDIRS = axis_switch csc h-resampler h-scaler v-scaler v-resampler vprocss xgpi
 subdirs: $(SUBDIRS)
 
 $(SUBDIRS):
-	$(MAKE) -C $@
+	$(MAKE) -C $@ 
 
-
+	$(info D is ${DESTDIR})
+	$(info B is ${BUILDDIR})
+	mkdir -p ${DESTDIR}/usr/bin
+	cp ${BUIDDIR}/test/vpss_app ${DESTDIR}/usr/bin
